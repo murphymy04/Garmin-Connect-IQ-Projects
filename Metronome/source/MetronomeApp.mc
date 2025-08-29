@@ -4,6 +4,10 @@ import Toybox.WatchUi;
 
 class MetronomeApp extends Application.AppBase {
 
+    var bpm = 60;
+    var interval = 1000;
+    var beatTimer;
+
     function initialize() {
         AppBase.initialize();
     }
@@ -19,6 +23,10 @@ class MetronomeApp extends Application.AppBase {
     // Return the initial view of your application here
     function getInitialView() as [Views] or [Views, InputDelegates] {
         return [ new MetronomeView(), new MetronomeDelegate() ];
+    }
+
+    private function updateInterval() {
+        interval = (60000.0 / bpm).toNumber();
     }
 
 }
