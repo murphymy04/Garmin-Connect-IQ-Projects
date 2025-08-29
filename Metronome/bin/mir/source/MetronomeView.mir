@@ -46,19 +46,82 @@ C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeView_mc_11_40_13_
     }
     [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeView.mc"; @line = 22; @symbol_functiondef = [onUpdate,22,13,21]; @symbol_param<0> = [dc,22,22,24]; @symbol_param<0>_type<0> = [Dc,22,28,30]; ]
     function onUpdate(dc as Dc) as Void {
-C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeView_mc_22_40_25_4_start:
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeView_mc_22_40_26_4_start:
 [ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeView.mc" 24 8 ]
-        symbol [ View %tmp.2 24 8 12 ];
-        %tmp.2 = getv ? :View;
-        symbol [ onUpdate %tmp.3 24 13 21 ];
-        %tmp.3 = getv function %tmp.2 :onUpdate;
-        %tmp.4 = lgetv %dc;
-        symbol [ dc %tmp.4 24 22 24 ];
-        invoke %tmp.2 %tmp.3(%tmp.4);
-C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeView_mc_22_40_25_4_stop:
+        %tmp.1 = self;
+        symbol [ updateBpmLabel %tmp.2 24 8 22 ];
+        %tmp.2 = getv function %tmp.1 :updateBpmLabel;
+        invoke %tmp.1 %tmp.2();
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeView.mc" 25 8 ]
+        symbol [ View %tmp.4 25 8 12 ];
+        %tmp.4 = getv ? :View;
+        symbol [ onUpdate %tmp.5 25 13 21 ];
+        %tmp.5 = getv function %tmp.4 :onUpdate;
+        %tmp.6 = lgetv %dc;
+        symbol [ dc %tmp.6 25 22 24 ];
+        invoke %tmp.4 %tmp.5(%tmp.6);
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeView_mc_22_40_26_4_stop:
     }
-    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeView.mc"; @line = 30; @symbol_functiondef = [onHide,30,13,19]; ]
+    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeView.mc"; @line = 31; @symbol_functiondef = [onHide,31,13,19]; ]
     function onHide() as Void {
+    }
+    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeView.mc"; @line = 34; @symbol_functiondef = [updateBpmLabel,34,21,35]; ]
+    private
+    function updateBpmLabel() {
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeView_mc_34_38_40_4_start:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeView.mc" 35 8 ]
+        [ "C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeView_mc_34_38_40_4_start" "C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeView_mc_34_38_40_4_stop" ]
+        %app.1 = local;
+        symbol [ app %app.1 35 12 15 ];
+        %tmp.1 = self;
+        symbol [ getApp %tmp.2 35 18 24 ];
+        %tmp.2 = getv function %tmp.1 :getApp;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %app.1 %tmp.3;
+        symbol [ app %app.1 35 12 15 ];
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeView.mc" 36 8 ]
+        [ "C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeView_mc_34_38_40_4_start" "C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeView_mc_34_38_40_4_stop" ]
+        %label.2 = local;
+        symbol [ label %label.2 36 12 17 ];
+        %tmp.4 = self;
+        symbol [ findDrawableById %tmp.5 36 20 36 ];
+        %tmp.5 = getv function %tmp.4 :findDrawableById;
+        %tmp.6 = "bpmLabel";
+        %tmp.7 = invoke %tmp.4 %tmp.5(%tmp.6);
+        %tmp.8 = as %tmp.7 WatchUi.Text;
+        symbol [ WatchUi %tmp.8 36 52 59 ];
+        symbol [ Text %tmp.8 36 60 64 ];
+        lputv %label.2 %tmp.8;
+        symbol [ label %label.2 36 12 17 ];
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeView.mc" 37 8 ]
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeView_mc_37_8_39_8_if_stmt:
+        %tmp.9 = lgetv %label.2;
+        symbol [ label %tmp.9 37 12 17 ];
+        %tmp.10 = null;
+        %tmp.11 = ne %tmp.9 %tmp.10;
+        bf %tmp.11 @C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeView_mc_37_8_39_8_if_end;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeView_mc_37_8_39_8_if_true:
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeView_mc_37_27_39_8_start:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeView.mc" 38 12 ]
+        %tmp.12 = lgetv %label.2;
+        symbol [ label %tmp.12 38 12 17 ];
+        %tmp.13 = as %tmp.12 { (!Null) };
+        symbol [ setText %tmp.14 38 18 25 ];
+        %tmp.14 = getv function %tmp.13 :setText;
+        %tmp.15 = "BPM: ";
+        %tmp.16 = lgetv %app.1;
+        symbol [ app %tmp.16 38 36 39 ];
+        symbol [ controller %tmp.17 38 40 50 ];
+        %tmp.17 = getv %tmp.16 :controller;
+        symbol [ getBpm %tmp.18 38 51 57 ];
+        %tmp.18 = getv function %tmp.17 :getBpm;
+        %tmp.19 = invoke %tmp.17 %tmp.18();
+        %tmp.20 = add %tmp.15 %tmp.19;
+        invoke %tmp.13 %tmp.14(%tmp.20);
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeView_mc_37_27_39_8_stop:
+        goto @C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeView_mc_37_8_39_8_if_end;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeView_mc_37_8_39_8_if_end:
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeView_mc_34_38_40_4_stop:
     }
 }
 [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeView.mc"; @line = 1; ]

@@ -21,6 +21,7 @@ class MetronomeView extends WatchUi.View {
     // Update the view
     function onUpdate(dc as Dc) as Void {
         // Call the parent onUpdate function to redraw the layout
+        updateBpmLabel();
         View.onUpdate(dc);
     }
 
@@ -28,6 +29,14 @@ class MetronomeView extends WatchUi.View {
     // state of this View here. This includes freeing resources from
     // memory.
     function onHide() as Void {
+    }
+
+    private function updateBpmLabel() {
+        var app = getApp();
+        var label = findDrawableById("bpmLabel") as WatchUi.Text;
+        if (label != null) {
+            label.setText("BPM: " + app.controller.getBpm());
+        }
     }
 
 }

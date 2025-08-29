@@ -49,11 +49,11 @@ module Rez {
 
     module Layouts {
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_text_bpmLabel = new WatchUi.Text({:identifier=>"bpmLabel", :locX=>(390 * 0.5), :locY=>((390 - dc.getFontHeight(Graphics.FONT_MEDIUM)) * 0.5), :text=>"BPM: 60", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+            var rez_cmp_local_text_bpmLabel = new WatchUi.Text({:identifier=>"bpmLabel", :locX=>(390 * 0.5), :locY=>((390 - dc.getFontHeight(Graphics.FONT_MEDIUM)) * 0.5), :text=>$.Rez.Strings.bpmLabel, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
 
-            var rez_cmp_local_custom_selectable_11824933295158922413 = new WatchUi.Button({:stateHighlighted=>Graphics.COLOR_BLUE, :stateSelected=>Graphics.COLOR_RED, :stateDefault=>new $.Rez.Drawables.PlusBtn(), :stateDisabled=>Graphics.COLOR_BLACK, :width=>60, :locX=>160, :locY=>50, :height=>60});
+            var rez_cmp_local_custom_selectable_11824933295158922413 = new WatchUi.Button({:stateHighlighted=>Graphics.COLOR_BLUE, :stateSelected=>Graphics.COLOR_RED, :stateDefault=>new $.Rez.Drawables.PlusBtn(), :stateDisabled=>Graphics.COLOR_BLACK, :width=>65, :locX=>160, :locY=>50, :behavior=>:onPlusBtn, :height=>65});
 
-            var rez_cmp_local_custom_selectable_16380678501279751870 = new WatchUi.Button({:stateHighlighted=>Graphics.COLOR_BLUE, :stateSelected=>Graphics.COLOR_RED, :stateDefault=>new $.Rez.Drawables.MinusBtn(), :stateDisabled=>Graphics.COLOR_BLACK, :width=>60, :locX=>160, :locY=>250, :height=>60});
+            var rez_cmp_local_custom_selectable_16380678501279751870 = new WatchUi.Button({:stateHighlighted=>Graphics.COLOR_BLUE, :stateSelected=>Graphics.COLOR_RED, :stateDefault=>new $.Rez.Drawables.MinusBtn(), :stateDisabled=>Graphics.COLOR_BLACK, :width=>65, :locX=>160, :locY=>270, :behavior=>:onMinusBtn, :height=>65});
 
             return [rez_cmp_local_text_bpmLabel, rez_cmp_local_custom_selectable_11824933295158922413, rez_cmp_local_custom_selectable_16380678501279751870] as Array<WatchUi.Drawable>;
         }

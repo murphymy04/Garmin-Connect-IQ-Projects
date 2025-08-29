@@ -1,0 +1,252 @@
+[ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
+import Toybox.Application;
+[ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc"; @line = 5; @symbol_classdef = [MetronomeController,5,6,25]; ]
+class MetronomeController {
+    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc"; @line = 6; @position = 15; @symbol_vardef = [bpm,6,15,18]; ]
+    protected
+    var bpm = 60;
+    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc"; @line = 7; @position = 15; @symbol_vardef = [interval,7,15,23]; ]
+    protected
+    var interval = 1000;
+    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc"; @line = 8; @position = 15; @symbol_vardef = [beatTimer,8,15,24]; ]
+    protected
+    var beatTimer;
+    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc"; @line = 9; @position = 15; @symbol_vardef = [vibeStrength,9,15,27]; ]
+    protected
+    var vibeStrength = 100;
+    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc"; @line = 10; @position = 15; @symbol_vardef = [pulseLength,10,15,26]; ]
+    protected
+    var pulseLength = 80;
+    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc"; @line = 12; @symbol_functiondef = [onBeat,12,13,19]; ]
+    function onBeat() as Void {
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_12_30_18_4_start:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc" 13 8 ]
+        [ "C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_12_30_18_4_start" "C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_12_30_18_4_stop" ]
+        %vibeData.1 = local;
+        symbol [ vibeData %vibeData.1 13 12 20 ];
+        %tmp.1 = newa 0;
+        lputv %vibeData.1 %tmp.1;
+        symbol [ vibeData %vibeData.1 13 12 20 ];
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc" 14 8 ]
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_14_8_16_8_if_stmt:
+        symbol [ Attention %tmp.3 14 12 21 ];
+        %tmp.3 = getv ? :Attention;
+        %tmp.5 = const :vibrate;
+        symbol [ vibrate %tmp.5 14 27 34 const ];
+        %tmp.6 = canhazplz %tmp.3 %tmp.5;
+        bf %tmp.6 @C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_14_8_16_8_if_end;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_14_8_16_8_if_true:
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_14_36_16_8_start:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc" 15 12 ]
+        %tmp.7 = newa 1;
+        symbol [ Attention %tmp.11 15 28 37 ];
+        %tmp.11 = getv ? :Attention;
+        %tmp.12 = as %tmp.11 { (interface { var vibrate; }) };
+        symbol [ VibeProfile %tmp.13 15 38 49 ];
+        %tmp.13 = getv function ? %tmp.12 :VibeProfile;
+        symbol [ vibeStrength %tmp.15 15 50 62 ];
+        %tmp.15 = getv ? :vibeStrength;
+        symbol [ pulseLength %tmp.17 15 64 75 ];
+        %tmp.17 = getv ? :pulseLength;
+        %tmp.8 = newc %tmp.13 (%tmp.15, %tmp.17);
+        %tmp.18 = dup %tmp.7;
+        %tmp.19 = aputv %tmp.18 0 %tmp.8;
+        lputv %vibeData.1 %tmp.19;
+        symbol [ vibeData %vibeData.1 15 12 20 ];
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_14_36_16_8_stop:
+        goto @C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_14_8_16_8_if_end;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_14_8_16_8_if_end:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc" 17 8 ]
+        symbol [ Attention %tmp.21 17 8 17 ];
+        %tmp.21 = getv ? :Attention;
+        symbol [ vibrate %tmp.22 17 18 25 ];
+        %tmp.22 = getv function %tmp.21 :vibrate;
+        %tmp.23 = lgetv %vibeData.1;
+        symbol [ vibeData %tmp.23 17 26 34 ];
+        invoke %tmp.21 %tmp.22(%tmp.23);
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_12_30_18_4_stop:
+    }
+    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc"; @line = 20; @symbol_functiondef = [startMetronome,20,13,27]; ]
+    function startMetronome() {
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_20_30_28_4_start:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc" 21 8 ]
+        %tmp.1 = self;
+        symbol [ updateInterval %tmp.2 21 8 22 ];
+        %tmp.2 = getv function %tmp.1 :updateInterval;
+        invoke %tmp.1 %tmp.2();
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc" 22 8 ]
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_22_8_24_8_if_stmt:
+        symbol [ beatTimer %tmp.4 22 12 21 ];
+        %tmp.4 = getv ? :beatTimer;
+        %tmp.5 = null;
+        %tmp.6 = ne %tmp.4 %tmp.5;
+        bf %tmp.6 @C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_22_8_24_8_if_end;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_22_8_24_8_if_true:
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_22_31_24_8_start:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc" 23 12 ]
+        symbol [ beatTimer %tmp.8 23 12 21 ];
+        %tmp.8 = getv ? :beatTimer;
+        %tmp.9 = as %tmp.8 { (!Null) };
+        symbol [ stop %tmp.10 23 22 26 ];
+        %tmp.10 = getv function %tmp.9 :stop;
+        invoke %tmp.9 %tmp.10();
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_22_31_24_8_stop:
+        goto @C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_22_8_24_8_if_end;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_22_8_24_8_if_end:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc" 26 8 ]
+        symbol [ Timer %tmp.14 26 24 29 ];
+        %tmp.14 = getv ? :Timer;
+        symbol [ Timer %tmp.15 26 30 35 ];
+        %tmp.15 = getv function ? %tmp.14 :Timer;
+        %tmp.11 = newc %tmp.15 ();
+        symbol [ beatTimer ? 26 8 17 ];
+        putv self :beatTimer %tmp.11;
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc" 27 8 ]
+        symbol [ beatTimer %tmp.17 27 8 17 ];
+        %tmp.17 = getv ? :beatTimer;
+        symbol [ start %tmp.18 27 18 23 ];
+        %tmp.18 = getv function %tmp.17 :start;
+        %tmp.19 = self;
+        symbol [ method %tmp.20 27 24 30 ];
+        %tmp.20 = getv function %tmp.19 :method;
+        %tmp.22 = const :onBeat;
+        symbol [ onBeat %tmp.22 27 32 38 const ];
+        %tmp.23 = invoke %tmp.19 %tmp.20(%tmp.22);
+        symbol [ interval %tmp.25 27 41 49 ];
+        %tmp.25 = getv ? :interval;
+        %tmp.26 = true;
+        invoke %tmp.17 %tmp.18(%tmp.23, %tmp.25, %tmp.26);
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_20_30_28_4_stop:
+    }
+    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc"; @line = 30; @symbol_functiondef = [stopMetronome,30,13,26]; ]
+    function stopMetronome() {
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_30_29_35_4_start:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc" 31 8 ]
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_31_8_34_8_if_stmt:
+        symbol [ beatTimer %tmp.2 31 12 21 ];
+        %tmp.2 = getv ? :beatTimer;
+        %tmp.3 = null;
+        %tmp.4 = ne %tmp.2 %tmp.3;
+        bf %tmp.4 @C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_31_8_34_8_if_end;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_31_8_34_8_if_true:
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_31_31_34_8_start:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc" 32 12 ]
+        symbol [ beatTimer %tmp.6 32 12 21 ];
+        %tmp.6 = getv ? :beatTimer;
+        %tmp.7 = as %tmp.6 { (!Null) };
+        symbol [ stop %tmp.8 32 22 26 ];
+        %tmp.8 = getv function %tmp.7 :stop;
+        invoke %tmp.7 %tmp.8();
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc" 33 12 ]
+        %tmp.9 = null;
+        symbol [ beatTimer ? 33 12 21 ];
+        putv self :beatTimer %tmp.9;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_31_31_34_8_stop:
+        goto @C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_31_8_34_8_if_end;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_31_8_34_8_if_end:
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_30_29_35_4_stop:
+    }
+    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc"; @line = 37; @symbol_functiondef = [updateBpm,37,13,22]; @symbol_param<0> = [add,37,23,26]; @symbol_param<0>_type<0> = [Boolean,37,30,37]; ]
+    function updateBpm(add as Boolean) {
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_37_39_49_4_start:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc" 38 8 ]
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_38_8_47_8_if_stmt:
+        %tmp.1 = lgetv %add;
+        symbol [ add %tmp.1 38 12 15 ];
+        bf %tmp.1 @C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_38_8_47_8_if_else_false;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_38_8_47_8_if_true:
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_38_17_42_8_start:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc" 39 12 ]
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_39_12_41_12_if_stmt:
+        symbol [ bpm %tmp.3 39 16 19 ];
+        %tmp.3 = getv ? :bpm;
+        %tmp.4 = 245;
+        %tmp.5 = lte %tmp.3 %tmp.4;
+        bf %tmp.5 @C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_39_12_41_12_if_end;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_39_12_41_12_if_true:
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_39_28_41_12_start:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc" 40 16 ]
+        symbol [ bpm %tmp.6 40 16 19 ];
+        %tmp.6 = getv self :bpm;
+        %tmp.7 = 5;
+        %tmp.8 = add %tmp.6 %tmp.7;
+        symbol [ bpm ? 40 16 19 ];
+        putv self :bpm dup %tmp.8;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_39_28_41_12_stop:
+        goto @C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_39_12_41_12_if_end;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_39_12_41_12_if_end:
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_38_17_42_8_stop:
+        goto @C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_38_8_47_8_if_end;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_38_8_47_8_if_else_false:
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_43_13_47_8_start:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc" 44 12 ]
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_44_12_46_12_if_stmt:
+        symbol [ bpm %tmp.10 44 16 19 ];
+        %tmp.10 = getv ? :bpm;
+        %tmp.11 = 35;
+        %tmp.12 = gte %tmp.10 %tmp.11;
+        bf %tmp.12 @C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_44_12_46_12_if_end;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_44_12_46_12_if_true:
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_44_27_46_12_start:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc" 45 16 ]
+        symbol [ bpm %tmp.13 45 16 19 ];
+        %tmp.13 = getv self :bpm;
+        %tmp.14 = 5;
+        %tmp.15 = sub %tmp.13 %tmp.14;
+        symbol [ bpm ? 45 16 19 ];
+        putv self :bpm dup %tmp.15;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_44_27_46_12_stop:
+        goto @C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_44_12_46_12_if_end;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_44_12_46_12_if_end:
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_43_13_47_8_stop:
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_38_8_47_8_if_end:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc" 48 8 ]
+        %tmp.16 = self;
+        symbol [ startMetronome %tmp.17 48 8 22 ];
+        %tmp.17 = getv function %tmp.16 :startMetronome;
+        invoke %tmp.16 %tmp.17();
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_37_39_49_4_stop:
+    }
+    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc"; @line = 51; @symbol_functiondef = [getBpm,51,13,19]; @symbol_return<0> = [String,51,25,31]; ]
+    function getBpm() as String {
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_51_32_53_4_start:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc" 52 8 ]
+        symbol [ bpm %tmp.2 52 15 18 ];
+        %tmp.2 = getv ? :bpm;
+        symbol [ toString %tmp.3 52 19 27 ];
+        %tmp.3 = getv function %tmp.2 :toString;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        ret %tmp.4;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_51_32_53_4_stop:
+    }
+    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc"; @line = 55; @symbol_functiondef = [updateInterval,55,21,35]; ]
+    private
+    function updateInterval() {
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_55_38_57_4_start:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc" 56 8 ]
+        %tmp.1 = 60000.0;
+        symbol [ bpm %tmp.3 56 30 33 ];
+        %tmp.3 = getv ? :bpm;
+        %tmp.4 = div %tmp.1 %tmp.3;
+        symbol [ toNumber %tmp.5 56 35 43 ];
+        %tmp.5 = getv function %tmp.4 :toNumber;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        symbol [ interval ? 56 8 16 ];
+        putv self :interval %tmp.6;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeController_mc_55_38_57_4_stop:
+    }
+}
+[ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeController.mc"; @line = 1; ]
+<init> {
+}

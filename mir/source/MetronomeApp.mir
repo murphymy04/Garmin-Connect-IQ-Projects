@@ -13,77 +13,81 @@ class MetronomeApp extends Application.AppBase {
     static
     <init> {
     }
-    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc"; @line = 7; @position = 8; @symbol_vardef = [bpm,7,8,11]; ]
-    var bpm = 60;
-    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc"; @line = 8; @position = 8; @symbol_vardef = [interval,8,8,16]; ]
-    var interval = 1000;
-    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc"; @line = 9; @position = 8; @symbol_vardef = [beatTimer,9,8,17]; ]
-    var beatTimer;
-    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc"; @line = 11; @symbol_functiondef = [initialize,11,13,23]; ]
+    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc"; @line = 7; @position = 8; @symbol_vardef = [controller,7,8,18]; ]
+    var controller;
+    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc"; @line = 9; @symbol_functiondef = [initialize,9,13,23]; ]
     function initialize() as Void {
-C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeApp_mc_11_26_13_4_start:
-[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc" 12 8 ]
-        symbol [ AppBase %tmp.2 12 8 15 ];
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeApp_mc_9_26_12_4_start:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc" 10 8 ]
+        symbol [ AppBase %tmp.2 10 8 15 ];
         %tmp.2 = getv ? :AppBase;
-        symbol [ initialize %tmp.3 12 16 26 ];
+        symbol [ initialize %tmp.3 10 16 26 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeApp_mc_11_26_13_4_stop:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc" 11 8 ]
+        symbol [ $ %tmp.7 11 25 26 ];
+        %tmp.7 = getm $;
+        symbol [ MetronomeController %tmp.8 11 27 46 ];
+        %tmp.8 = getv %tmp.7 :MetronomeController;
+        %tmp.4 = newc %tmp.8 ();
+        symbol [ controller ? 11 8 18 ];
+        putv self :controller %tmp.4;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeApp_mc_9_26_12_4_stop:
     }
-    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc"; @line = 16; @symbol_functiondef = [onStart,16,13,20]; @symbol_param<0> = [state,16,21,26]; @symbol_param<0>_type<0> = [Dictionary,16,30,40]; ]
+    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc"; @line = 15; @symbol_functiondef = [onStart,15,13,20]; @symbol_param<0> = [state,15,21,26]; @symbol_param<0>_type<0> = [Dictionary,15,30,40]; ]
     function onStart(state as Dictionary or Null) as Void {
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeApp_mc_15_51_17_4_start:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc" 16 8 ]
+        symbol [ controller %tmp.2 16 8 18 ];
+        %tmp.2 = getv ? :controller;
+        symbol [ startMetronome %tmp.3 16 19 33 ];
+        %tmp.3 = getv function %tmp.2 :startMetronome;
+        invoke %tmp.2 %tmp.3();
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeApp_mc_15_51_17_4_stop:
     }
     [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc"; @line = 20; @symbol_functiondef = [onStop,20,13,19]; @symbol_param<0> = [state,20,20,25]; @symbol_param<0>_type<0> = [Dictionary,20,29,39]; ]
     function onStop(state as Dictionary or Null) as Void {
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeApp_mc_20_50_22_4_start:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc" 21 8 ]
+        symbol [ controller %tmp.2 21 8 18 ];
+        %tmp.2 = getv ? :controller;
+        symbol [ stopMetronome %tmp.3 21 19 32 ];
+        %tmp.3 = getv function %tmp.2 :stopMetronome;
+        invoke %tmp.2 %tmp.3();
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeApp_mc_20_50_22_4_stop:
     }
-    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc"; @line = 24; @symbol_functiondef = [getInitialView,24,13,27]; @symbol_return<0> = [Views,24,34,39]; @symbol_return<1> = [Views,24,45,50]; @symbol_return<2> = [InputDelegates,24,52,66]; ]
+    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc"; @line = 25; @symbol_functiondef = [getInitialView,25,13,27]; @symbol_return<0> = [Views,25,34,39]; @symbol_return<1> = [Views,25,45,50]; @symbol_return<2> = [InputDelegates,25,52,66]; ]
     function getInitialView() as [Views] or [Views, InputDelegates] {
-C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeApp_mc_24_68_26_4_start:
-[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc" 25 8 ]
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeApp_mc_25_68_27_4_start:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc" 26 8 ]
         %tmp.1 = newa 2;
-        symbol [ MetronomeView %tmp.5 25 21 34 ];
+        symbol [ MetronomeView %tmp.5 26 21 34 ];
         %tmp.5 = getv ? :MetronomeView;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
-        symbol [ MetronomeDelegate %tmp.11 25 42 59 ];
+        symbol [ MetronomeDelegate %tmp.11 26 42 59 ];
         %tmp.11 = getv ? :MetronomeDelegate;
         %tmp.8 = newc %tmp.11 ();
         %tmp.12 = dup %tmp.7;
         %tmp.13 = aputv %tmp.12 1 %tmp.8;
         ret %tmp.13;
-C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeApp_mc_24_68_26_4_stop:
-    }
-    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc"; @line = 28; @symbol_functiondef = [updateInterval,28,21,35]; ]
-    private
-    function updateInterval() {
-C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeApp_mc_28_38_30_4_start:
-[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc" 29 8 ]
-        %tmp.1 = 60000.0;
-        symbol [ bpm %tmp.3 29 30 33 ];
-        %tmp.3 = getv ? :bpm;
-        %tmp.4 = div %tmp.1 %tmp.3;
-        symbol [ toNumber %tmp.5 29 35 43 ];
-        %tmp.5 = getv function %tmp.4 :toNumber;
-        %tmp.6 = invoke %tmp.4 %tmp.5();
-        symbol [ interval ? 29 8 16 ];
-        putv self :interval %tmp.6;
-C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeApp_mc_28_38_30_4_stop:
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeApp_mc_25_68_27_4_stop:
     }
 }
-[ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc"; @line = 34; @symbol_functiondef = [getApp,34,9,15]; @symbol_return<0> = [MetronomeApp,34,21,33]; ]
+[ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc"; @line = 30; @symbol_functiondef = [getApp,30,9,15]; @symbol_return<0> = [MetronomeApp,30,21,33]; ]
 function getApp() as MetronomeApp {
-C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeApp_mc_34_34_36_0_start:
-[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc" 35 4 ]
-    symbol [ Application %tmp.1 35 11 22 ];
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeApp_mc_30_34_32_0_start:
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc" 31 4 ]
+    symbol [ Application %tmp.1 31 11 22 ];
     %tmp.1 = getm $.Toybox.Application;
-    symbol [ getApp %tmp.2 35 23 29 ];
+    symbol [ getApp %tmp.2 31 23 29 ];
     %tmp.2 = getv function %tmp.1 :getApp;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     %tmp.4 = as %tmp.3 MetronomeApp;
-    symbol [ MetronomeApp %tmp.4 35 35 47 ];
+    symbol [ MetronomeApp %tmp.4 31 35 47 ];
     ret %tmp.4;
-C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeApp_mc_34_34_36_0_stop:
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeApp_mc_30_34_32_0_stop:
 }
 [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeApp.mc"; @line = 1; ]
 <init> {

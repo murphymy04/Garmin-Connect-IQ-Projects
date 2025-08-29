@@ -2,19 +2,21 @@
     <!-- BPM display -->
     <label id="bpmLabel"
            x="center" y="center"
-           text="BPM: 60"
+           text="@Strings.bpmLabel"
            justification="Graphics.TEXT_JUSTIFY_CENTER"/>
 
-    <button x="160" y="50" width="60" height="60"> 
+    <button x="160" y="50" width="65" height="65"> 
         <state id="stateDefault" drawable="@Drawables.PlusBtn" />
         <state id="stateHighlighted" color="Graphics.COLOR_BLUE" />
         <state id="stateSelected" color="Graphics.COLOR_RED" />
         <state id="stateDisabled" color="Graphics.COLOR_BLACK" />
+        <param name="behavior">onPlusBtn</param>
     </button>
-    <button x="160" y="250" width="60" height="60">
+    <button x="160" y="270" width="65" height="65">
         <state id="stateDefault" drawable="@Drawables.MinusBtn" />
         <state id="stateHighlighted" color="Graphics.COLOR_BLUE" />
         <state id="stateSelected" color="Graphics.COLOR_RED" />
         <state id="stateDisabled" color="Graphics.COLOR_BLACK" />
+        <param name="behavior">onMinusBtn</param>
     </button>
 </layout>
