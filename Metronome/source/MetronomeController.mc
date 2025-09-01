@@ -4,19 +4,17 @@ import Toybox.WatchUi;
 
 class MetronomeController {
     hidden var bpm = 60;
-    hidden var interval = 1000; // ms
     hidden var vibeStrength = 100; // %
     hidden var pulseLength = 80; // ms
     hidden var beatTimer;
+    hidden var interval = 1000; // ms
 
     function initialize() {
         var bpmStore = Storage.getValue("bpm");
-        var intervalStore = Storage.getValue("interval");
         var vibeStrengthStore = Storage.getValue("vibeStrength");
         var pulseLengthStore = Storage.getValue("pulseLength");
 
         bpm = (bpmStore == null) ? bpm : bpmStore;
-        interval = (intervalStore == null) ? interval : intervalStore;
         vibeStrength = (vibeStrengthStore == null) ? vibeStrength : vibeStrengthStore;
         pulseLength = (pulseLengthStore == null) ? pulseLength : pulseLengthStore;
     }

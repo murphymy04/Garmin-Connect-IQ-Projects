@@ -9,10 +9,14 @@ class MetronomeMenuDelegate extends WatchUi.MenuInputDelegate {
     }
 
     function onMenuItem(item as Symbol) as Void {
-        if (item == :item_1) {
-            System.println("item 1");
-        } else if (item == :item_2) {
-            System.println("item 2");
+        if (item == :item_1) { // vibe strength
+            
+        } 
+        else if (item == :item_2) { // pulse length
+
+        }
+        else if (item == :item_3) { // reset settings
+
         }
     }
 

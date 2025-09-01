@@ -14,18 +14,28 @@ class MetronomeDelegate extends WatchUi.BehaviorDelegate {
 
     function onPlusBtn() as Boolean {
         app.controller.updateBpm(1);
-        //view.updateBpmLabel();
         return true;
     }
 
     function onMinusBtn() as Boolean {
         app.controller.updateBpm(0);
-        //view.updateBpmLabel();
+        return true;
+    }
+
+    function onSwipe(swipeEvent as SwipeEvent) as Boolean {
+        if (swipeEvent.getDirection() == WatchUi.SWIPE_UP) {
+            return onMenu();
+        }
         return true;
     }
 
     function onMenu() as Boolean {
-        WatchUi.pushView(new Rez.Menus.MainMenu(), new MetronomeMenuDelegate(), WatchUi.SLIDE_UP);
+        var menu = new WatchUi.Menu();
+        menu.setTitle("Metronome Settings");
+        menu.addItem("Vibration Strength", :one);
+        menu.addItem("Pulse Length", :two);
+        menu.addItem("Reset Settings", :three);
+        WatchUi.pushView(menu, new MetronomeMenuDelegate(), WatchUi.SLIDE_UP);
         return true;
     }
 

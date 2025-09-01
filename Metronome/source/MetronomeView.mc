@@ -3,6 +3,8 @@ import Toybox.WatchUi;
 
 class MetronomeView extends WatchUi.View {
 
+    hidden var currView = 0;
+    hidden var views = 2;
     var app;
 
     function initialize() {
@@ -27,6 +29,19 @@ class MetronomeView extends WatchUi.View {
         // Call the parent onUpdate function to redraw the layout
         updateBpmLabel();
         View.onUpdate(dc);
+        var centerX = dc.getWidth() / 2;
+        var bottomY = dc.getHeight() - 15; 
+
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+
+        // Arrow pointing down
+        var arrow = [
+            [centerX - 15, bottomY - 15],
+            [centerX + 15, bottomY - 15],
+            [centerX,      bottomY]
+        ];
+
+        dc.fillPolygon(arrow);
     }
 
     // Called when this View is removed from the screen. Save the
