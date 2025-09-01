@@ -1,9 +1,5 @@
 <drawables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
     <bitmap id="LauncherIcon" filename="launcher_icon.svg" dithering="none" />
-    <drawable-list id="PlusBtn">
-	    <shape type="polygon" color="Gfx.COLOR_LT_GRAY" points="[[185,55], [195,55], [195,75], [215,75], [215,85], [195,85], [195,105], [185,105], [185,85], [165,85], [165,75], [185,75]]" />
-	</drawable-list>
-    <drawable-list id="MinusBtn">
-        <shape type="polygon" color="Gfx.COLOR_LT_GRAY" points="[[165,295], [215,295], [215,305], [165,305]]" />
-    </drawable-list>
+    <bitmap id="PlusBtn" filename="plus_icon.png" scaleX="16%" scaleY="16%"/>
+    <bitmap id="MinusBtn" filename="minus_icon.png" scaleX="16%" scaleY="16%"/>
 </drawables>

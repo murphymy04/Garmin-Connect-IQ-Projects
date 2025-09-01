@@ -5,16 +5,16 @@
            text="@Strings.bpmLabel"
            justification="Graphics.TEXT_JUSTIFY_CENTER"/>
 
-    <button x="160" y="50" width="65" height="65"> 
-        <state id="stateDefault" drawable="@Drawables.PlusBtn" />
-        <state id="stateHighlighted" color="Graphics.COLOR_BLUE" />
+    <button x="center" y="50" width="70" height="70"> 
+        <state id="stateDefault" bitmap="@Drawables.PlusBtn" />
+        <state id="stateHighlighted" bitmap="@Drawables.PlusBtn" />
         <state id="stateSelected" color="Graphics.COLOR_RED" />
         <state id="stateDisabled" color="Graphics.COLOR_BLACK" />
         <param name="behavior">onPlusBtn</param>
     </button>
-    <button x="160" y="270" width="65" height="65">
-        <state id="stateDefault" drawable="@Drawables.MinusBtn" />
-        <state id="stateHighlighted" color="Graphics.COLOR_BLUE" />
+    <button x="center" y="270" width="70" height="70">
+        <state id="stateDefault" bitmap="@Drawables.MinusBtn" />
+        <state id="stateHighlighted" bitmap="@Drawables.MinusBtn" />
         <state id="stateSelected" color="Graphics.COLOR_RED" />
         <state id="stateDisabled" color="Graphics.COLOR_BLACK" />
         <param name="behavior">onMinusBtn</param>

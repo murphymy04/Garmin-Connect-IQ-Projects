@@ -14,6 +14,13 @@
             "Monkey C: Edit Products" - Lets you add or remove any product
         -->
         <iq:products>
+            <iq:product id="fenix843mm"/>
+            <iq:product id="venu3"/>
+            <iq:product id="venu3s"/>
+            <iq:product id="venusq2"/>
+            <iq:product id="venusq2m"/>
+            <iq:product id="venux1"/>
+            <iq:product id="vivoactive5"/>
             <iq:product id="vivoactive6"/>
         </iq:products>
         <!--
@@ -25,7 +32,9 @@
             Use "Monkey C: Edit Languages" from the Visual Studio Code command
             palette to edit your compatible language list.
         -->
-        <iq:languages/>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
         <!--
             Use "Monkey C: Configure Monkey Barrel" from the Visual Studio Code
             command palette to edit the included barrels.
