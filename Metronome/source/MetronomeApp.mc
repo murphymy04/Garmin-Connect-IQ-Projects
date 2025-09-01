@@ -19,6 +19,7 @@ class MetronomeApp extends Application.AppBase {
     // onStop() is called when your application is exiting
     function onStop(state as Dictionary?) as Void {
         controller.stopMetronome();
+        controller.saveBpm();
     }
 
     // Return the initial view of your application here

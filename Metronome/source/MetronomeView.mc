@@ -3,8 +3,11 @@ import Toybox.WatchUi;
 
 class MetronomeView extends WatchUi.View {
 
+    var app;
+
     function initialize() {
         View.initialize();
+        app = getApp();
     }
 
     // Load your resources here
@@ -16,6 +19,7 @@ class MetronomeView extends WatchUi.View {
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
     function onShow() as Void {
+        app.controller.startMetronome();
     }
 
     // Update the view
@@ -29,10 +33,10 @@ class MetronomeView extends WatchUi.View {
     // state of this View here. This includes freeing resources from
     // memory.
     function onHide() as Void {
+        app.controller.stopMetronome();
     }
 
     private function updateBpmLabel() {
-        var app = getApp();
         var label = findDrawableById("bpmLabel") as WatchUi.Text;
         if (label != null) {
             label.setText("BPM: " + app.controller.getBpm());

@@ -6,56 +6,20 @@ using Toybox.Graphics as Gfx;
 
 module Rez {
     module Drawables {
+        (:initialized) var PlusBtn as ResourceId;
+        (:initialized) var MinusBtn as ResourceId;
         (:initialized) var LauncherIcon as ResourceId;
-
-        class PlusBtn extends WatchUi.Drawable {
-
-            function initialize() {
-                Drawable.initialize({});
-            }
-
-            function draw(dc as Graphics.Dc) as Void {
-                if (self has :isVisible) {
-                    if (!self.isVisible) {
-                        return;
-                    }
-                }
-
-
-                dc.setColor(Gfx.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
-                dc.fillPolygon([[(0 + 0) + ((0 + 0) + 0) + 185.0, (0 + 0) + ((0 + 0) + 0) + 55.0], [(0 + 0) + ((0 + 0) + 0) + 195.0, (0 + 0) + ((0 + 0) + 0) + 55.0], [(0 + 0) + ((0 + 0) + 0) + 195.0, (0 + 0) + ((0 + 0) + 0) + 75.0], [(0 + 0) + ((0 + 0) + 0) + 215.0, (0 + 0) + ((0 + 0) + 0) + 75.0], [(0 + 0) + ((0 + 0) + 0) + 215.0, (0 + 0) + ((0 + 0) + 0) + 85.0], [(0 + 0) + ((0 + 0) + 0) + 195.0, (0 + 0) + ((0 + 0) + 0) + 85.0], [(0 + 0) + ((0 + 0) + 0) + 195.0, (0 + 0) + ((0 + 0) + 0) + 105.0], [(0 + 0) + ((0 + 0) + 0) + 185.0, (0 + 0) + ((0 + 0) + 0) + 105.0], [(0 + 0) + ((0 + 0) + 0) + 185.0, (0 + 0) + ((0 + 0) + 0) + 85.0], [(0 + 0) + ((0 + 0) + 0) + 165.0, (0 + 0) + ((0 + 0) + 0) + 85.0], [(0 + 0) + ((0 + 0) + 0) + 165.0, (0 + 0) + ((0 + 0) + 0) + 75.0], [(0 + 0) + ((0 + 0) + 0) + 185.0, (0 + 0) + ((0 + 0) + 0) + 75.0]]);
-            }
-        }
-
-        class MinusBtn extends WatchUi.Drawable {
-
-            function initialize() {
-                Drawable.initialize({});
-            }
-
-            function draw(dc as Graphics.Dc) as Void {
-                if (self has :isVisible) {
-                    if (!self.isVisible) {
-                        return;
-                    }
-                }
-
-
-                dc.setColor(Gfx.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
-                dc.fillPolygon([[(0 + 0) + ((0 + 0) + 0) + 165.0, (0 + 0) + ((0 + 0) + 0) + 295.0], [(0 + 0) + ((0 + 0) + 0) + 215.0, (0 + 0) + ((0 + 0) + 0) + 295.0], [(0 + 0) + ((0 + 0) + 0) + 215.0, (0 + 0) + ((0 + 0) + 0) + 305.0], [(0 + 0) + ((0 + 0) + 0) + 165.0, (0 + 0) + ((0 + 0) + 0) + 305.0]]);
-            }
-        }
     } // Drawables
 
     module Layouts {
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
             var rez_cmp_local_text_bpmLabel = new WatchUi.Text({:identifier=>"bpmLabel", :locX=>(390 * 0.5), :locY=>((390 - dc.getFontHeight(Graphics.FONT_MEDIUM)) * 0.5), :text=>$.Rez.Strings.bpmLabel, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
 
-            var rez_cmp_local_custom_selectable_11824933295158922413 = new WatchUi.Button({:stateHighlighted=>Graphics.COLOR_BLUE, :stateSelected=>Graphics.COLOR_RED, :stateDefault=>new $.Rez.Drawables.PlusBtn(), :stateDisabled=>Graphics.COLOR_BLACK, :width=>65, :locX=>160, :locY=>50, :behavior=>:onPlusBtn, :height=>65});
+            var rez_cmp_local_custom_selectable_11939594661139614796 = new WatchUi.Button({:stateHighlighted=>new WatchUi.Bitmap({:rezId=>$.Rez.Drawables.PlusBtn}), :stateSelected=>Graphics.COLOR_RED, :stateDefault=>new WatchUi.Bitmap({:rezId=>$.Rez.Drawables.PlusBtn}), :stateDisabled=>Graphics.COLOR_BLACK, :width=>70, :locX=>(390 / 2) - (70 / 2), :locY=>50, :behavior=>:onPlusBtn, :height=>70});
 
-            var rez_cmp_local_custom_selectable_16380678501279751870 = new WatchUi.Button({:stateHighlighted=>Graphics.COLOR_BLUE, :stateSelected=>Graphics.COLOR_RED, :stateDefault=>new $.Rez.Drawables.MinusBtn(), :stateDisabled=>Graphics.COLOR_BLACK, :width=>65, :locX=>160, :locY=>270, :behavior=>:onMinusBtn, :height=>65});
+            var rez_cmp_local_custom_selectable_83741574912206153191 = new WatchUi.Button({:stateHighlighted=>new WatchUi.Bitmap({:rezId=>$.Rez.Drawables.MinusBtn}), :stateSelected=>Graphics.COLOR_RED, :stateDefault=>new WatchUi.Bitmap({:rezId=>$.Rez.Drawables.MinusBtn}), :stateDisabled=>Graphics.COLOR_BLACK, :width=>70, :locX=>(390 / 2) - (70 / 2), :locY=>270, :behavior=>:onMinusBtn, :height=>70});
 
-            return [rez_cmp_local_text_bpmLabel, rez_cmp_local_custom_selectable_11824933295158922413, rez_cmp_local_custom_selectable_16380678501279751870] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_text_bpmLabel, rez_cmp_local_custom_selectable_11939594661139614796, rez_cmp_local_custom_selectable_83741574912206153191] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
