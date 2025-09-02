@@ -21,6 +21,8 @@ class MetronomeAppCommon {
     const defaultVibeStrength = 100;
     [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeAppCommon.mc"; @line = 9; @position = 10; @symbol_constdef = [defaultPulseLength,9,10,28]; ]
     const defaultPulseLength = 80;
+    [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeAppCommon.mc"; @line = 11; @position = 10; @symbol_constdef = [screenBacklightTimeout,11,10,32]; ]
+    const screenBacklightTimeout = 10000;
 }
 [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeAppCommon.mc"; @line = 1; ]
 <init> {

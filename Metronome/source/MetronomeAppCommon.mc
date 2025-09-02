@@ -7,4 +7,6 @@ class MetronomeAppCommon {
     const defaultBpm = 60;
     const defaultVibeStrength = 100; // %
     const defaultPulseLength = 80; // ms
+
+    const screenBacklightTimeout = 10000; // ms
 }

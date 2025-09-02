@@ -7,6 +7,7 @@ class MetronomeController {
     hidden var vibeStrength;
     hidden var pulseLength;
     hidden var beatTimer;
+    hidden var backlightTimer;
     hidden var interval = 1000; // ms
     const common = new $.MetronomeAppCommon();
 
@@ -36,12 +37,34 @@ class MetronomeController {
 
         beatTimer = new Timer.Timer();
         beatTimer.start(method(:onBeat), interval, true);
+        startBacklightTimer();
     }
 
     function stopMetronome() {
         if (beatTimer != null) {
             beatTimer.stop();
             beatTimer = null;
+        }
+        stopBacklightTimer();
+    }
+
+    function turnOffBacklight() as Void {
+        Attention.backlight(false);
+    }
+
+    function startBacklightTimer() {
+        if (backlightTimer != null) {
+            backlightTimer.stop();
+        }
+
+        backlightTimer = new Timer.Timer();
+        backlightTimer.start(method(:turnOffBacklight), common.screenBacklightTimeout, true);
+    }
+
+    function stopBacklightTimer() {
+        if (backlightTimer != null) {
+            backlightTimer.stop();
+            backlightTimer = null;
         }
     }
 

@@ -46,6 +46,7 @@ class MetronomeView extends WatchUi.View {
     // state of this View here. This includes freeing resources from
     // memory.
     function onHide() as Void {
+        app.controller.stopMetronome();
     }
 
     private function updateBpmLabel() {
