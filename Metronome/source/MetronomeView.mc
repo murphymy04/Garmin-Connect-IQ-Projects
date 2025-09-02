@@ -3,8 +3,6 @@ import Toybox.WatchUi;
 
 class MetronomeView extends WatchUi.View {
 
-    hidden var currView = 0;
-    hidden var views = 2;
     var app;
 
     function initialize() {
@@ -48,7 +46,6 @@ class MetronomeView extends WatchUi.View {
     // state of this View here. This includes freeing resources from
     // memory.
     function onHide() as Void {
-        app.controller.stopMetronome();
     }
 
     private function updateBpmLabel() {

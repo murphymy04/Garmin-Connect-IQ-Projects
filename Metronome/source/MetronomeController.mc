@@ -3,20 +3,21 @@ import Toybox.Lang;
 import Toybox.WatchUi;
 
 class MetronomeController {
-    hidden var bpm = 60;
-    hidden var vibeStrength = 100; // %
-    hidden var pulseLength = 80; // ms
+    hidden var bpm;
+    hidden var vibeStrength;
+    hidden var pulseLength;
     hidden var beatTimer;
     hidden var interval = 1000; // ms
+    const common = new $.MetronomeAppCommon();
 
     function initialize() {
         var bpmStore = Storage.getValue("bpm");
         var vibeStrengthStore = Storage.getValue("vibeStrength");
         var pulseLengthStore = Storage.getValue("pulseLength");
 
-        bpm = (bpmStore == null) ? bpm : bpmStore;
-        vibeStrength = (vibeStrengthStore == null) ? vibeStrength : vibeStrengthStore;
-        pulseLength = (pulseLengthStore == null) ? pulseLength : pulseLengthStore;
+        bpm = (bpmStore == null) ? common.defaultBpm : bpmStore;
+        vibeStrength = (vibeStrengthStore == null) ? common.defaultVibeStrength : vibeStrengthStore;
+        pulseLength = (pulseLengthStore == null) ? common.defaultPulseLength : pulseLengthStore;
     }
 
     function onBeat() as Void {
@@ -62,8 +63,33 @@ class MetronomeController {
         return bpm.toString();
     }
 
+    function getVibeStrength() as String {
+        return vibeStrength.toString() + "%";
+    }
+
+    function getPulseLength() as String {
+        return pulseLength.toString() + " ms";
+    }
+
     function saveBpm() {
         Storage.setValue("bpm", bpm);
+    }
+
+    function saveVibeStrength(newVibeStrength) {
+        vibeStrength = newVibeStrength;
+        Storage.setValue("vibeStrength", vibeStrength);
+    }
+
+    function savePulseLength(newPulseLength) {
+        pulseLength = newPulseLength;
+        Storage.setValue("pulseLength", pulseLength);
+    }
+
+    function resetSettings() {
+        bpm = common.defaultBpm;
+        saveBpm();
+        saveVibeStrength(common.defaultVibeStrength);
+        savePulseLength(common.defaultPulseLength);
     }
 
     private function updateInterval() {

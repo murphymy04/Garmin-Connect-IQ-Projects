@@ -4,12 +4,11 @@ import Toybox.WatchUi;
 class MetronomeDelegate extends WatchUi.BehaviorDelegate {
 
     var app;
-    var view;
+    const common = new $.MetronomeAppCommon();
 
     function initialize() {
         BehaviorDelegate.initialize();
         app = getApp();
-        view = getCurrentView();
     }
 
     function onPlusBtn() as Boolean {
@@ -30,12 +29,13 @@ class MetronomeDelegate extends WatchUi.BehaviorDelegate {
     }
 
     function onMenu() as Boolean {
-        var menu = new WatchUi.Menu();
-        menu.setTitle("Metronome Settings");
-        menu.addItem("Vibration Strength", :one);
-        menu.addItem("Pulse Length", :two);
-        menu.addItem("Reset Settings", :three);
-        WatchUi.pushView(menu, new MetronomeMenuDelegate(), WatchUi.SLIDE_UP);
+        app.controller.stopMetronome();
+        var menu = new WatchUi.Menu2(null);
+        menu.setTitle(common.settingsTitle);
+        menu.addItem(new WatchUi.MenuItem(common.vibeStrength, app.controller.getVibeStrength(), :one, null));
+        menu.addItem(new WatchUi.MenuItem(common.pulseLength, app.controller.getPulseLength(), :two, null));
+        menu.addItem(new WatchUi.MenuItem(common.reset, null, :three, null));
+        WatchUi.pushView(menu, new MetronomeSettingsMenuDelegate(), WatchUi.SLIDE_UP);
         return true;
     }
 

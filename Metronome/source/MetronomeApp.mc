@@ -4,11 +4,10 @@ import Toybox.WatchUi;
 
 class MetronomeApp extends Application.AppBase {
 
-    var controller;
+    const controller = new $.MetronomeController();
 
     function initialize() {
         AppBase.initialize();
-        controller = new $.MetronomeController();
     }
 
     // onStart() is called on application start up
