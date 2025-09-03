@@ -2,181 +2,195 @@
 <debugInfo>
     <manifest filename="C:\Users\myles\Garmin Connect IQ Dev\Metronome\manifest.xml"/>
     <pcToLineNum>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="1" lineNum="6" parent="globals/MetronomeApp" pc="268435460" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="1" lineNum="8" parent="globals/MetronomeApp" pc="268435471" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="2" lineNum="15" parent="globals/MetronomeApp" pc="268435501" symbol="onStart"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="2" lineNum="16" parent="globals/MetronomeApp" pc="268435503" symbol="onStart"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="3" lineNum="26" parent="globals/MetronomeApp" pc="268435516" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="3" lineNum="27" parent="globals/MetronomeApp" pc="268435518" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="4" lineNum="10" parent="globals/MetronomeApp" pc="268435565" symbol="initialize"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="4" lineNum="11" parent="globals/MetronomeApp" pc="268435567" symbol="initialize"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="5" lineNum="20" parent="globals/MetronomeApp" pc="268435580" symbol="onStop"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="5" lineNum="21" parent="globals/MetronomeApp" pc="268435582" symbol="onStop"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="5" lineNum="22" parent="globals/MetronomeApp" pc="268435594" symbol="onStop"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="6" lineNum="4" parent="globals/MetronomeDelegate" pc="268435607" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="6" lineNum="7" parent="globals/MetronomeDelegate" pc="268435618" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="7" lineNum="31" parent="globals" pc="268435648" symbol="getApp"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="7" lineNum="32" parent="globals" pc="268435658" symbol="getApp"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="8" lineNum="12" parent="globals/MetronomeController" pc="268435669" symbol="&lt;init&gt;"/>
-        <entry filename="c:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\bin\\gen\\006-B4625-00\\source\\Rez.mcgen" id="9" lineNum="7" parent="globals/Rez" pc="268435699" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="10" lineNum="5" parent="globals/MetronomeSettingsMenuDelegate" pc="268435719" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="10" lineNum="7" parent="globals/MetronomeSettingsMenuDelegate" pc="268435730" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="11" lineNum="4" parent="globals/MetronomeView" pc="268435756" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="12" lineNum="14" parent="globals/MetronomeDelegate" pc="268435768" symbol="onPlusBtn"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="12" lineNum="15" parent="globals/MetronomeDelegate" pc="268435770" symbol="onPlusBtn"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="12" lineNum="16" parent="globals/MetronomeDelegate" pc="268435791" symbol="onPlusBtn"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="13" lineNum="31" parent="globals/MetronomeDelegate" pc="268435793" symbol="onMenu"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="13" lineNum="32" parent="globals/MetronomeDelegate" pc="268435796" symbol="onMenu"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="13" lineNum="33" parent="globals/MetronomeDelegate" pc="268435813" symbol="onMenu"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="13" lineNum="34" parent="globals/MetronomeDelegate" pc="268435838" symbol="onMenu"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="13" lineNum="35" parent="globals/MetronomeDelegate" pc="268435858" symbol="onMenu"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="13" lineNum="36" parent="globals/MetronomeDelegate" pc="268435922" symbol="onMenu"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="13" lineNum="37" parent="globals/MetronomeDelegate" pc="268435986" symbol="onMenu"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="13" lineNum="38" parent="globals/MetronomeDelegate" pc="268436035" symbol="onMenu"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="13" lineNum="39" parent="globals/MetronomeDelegate" pc="268436070" symbol="onMenu"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="14" lineNum="19" parent="globals/MetronomeDelegate" pc="268436072" symbol="onMinusBtn"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="14" lineNum="20" parent="globals/MetronomeDelegate" pc="268436074" symbol="onMinusBtn"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="14" lineNum="21" parent="globals/MetronomeDelegate" pc="268436094" symbol="onMinusBtn"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="15" lineNum="24" parent="globals/MetronomeDelegate" pc="268436096" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="15" lineNum="25" parent="globals/MetronomeDelegate" pc="268436098" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="15" lineNum="26" parent="globals/MetronomeDelegate" pc="268436110" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="15" lineNum="28" parent="globals/MetronomeDelegate" pc="268436120" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="16" lineNum="9" parent="globals/MetronomeDelegate" pc="268436122" symbol="initialize"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="16" lineNum="10" parent="globals/MetronomeDelegate" pc="268436124" symbol="initialize"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="16" lineNum="11" parent="globals/MetronomeDelegate" pc="268436136" symbol="initialize"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="18" lineNum="85" parent="globals/MetronomeController" pc="268436150" symbol="getBpm"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="18" lineNum="86" parent="globals/MetronomeController" pc="268436152" symbol="getBpm"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="19" lineNum="24" parent="globals/MetronomeController" pc="268436164" symbol="onBeat"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="19" lineNum="25" parent="globals/MetronomeController" pc="268436167" symbol="onBeat"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="19" lineNum="26" parent="globals/MetronomeController" pc="268436171" symbol="onBeat"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="19" lineNum="27" parent="globals/MetronomeController" pc="268436186" symbol="onBeat"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="19" lineNum="29" parent="globals/MetronomeController" pc="268436232" symbol="onBeat"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="20" lineNum="97" parent="globals/MetronomeController" pc="268436248" symbol="saveBpm"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="20" lineNum="98" parent="globals/MetronomeController" pc="268436250" symbol="saveBpm"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="21" lineNum="51" parent="globals/MetronomeController" pc="268436274" symbol="turnOffBacklight"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="21" lineNum="52" parent="globals/MetronomeController" pc="268436276" symbol="turnOffBacklight"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="22" lineNum="71" parent="globals/MetronomeController" pc="268436291" symbol="updateBpm"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="22" lineNum="72" parent="globals/MetronomeController" pc="268436293" symbol="updateBpm"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="22" lineNum="73" parent="globals/MetronomeController" pc="268436298" symbol="updateBpm"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="22" lineNum="74" parent="globals/MetronomeController" pc="268436310" symbol="updateBpm"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="22" lineNum="78" parent="globals/MetronomeController" pc="268436331" symbol="updateBpm"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="22" lineNum="79" parent="globals/MetronomeController" pc="268436342" symbol="updateBpm"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="22" lineNum="82" parent="globals/MetronomeController" pc="268436360" symbol="updateBpm"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="23" lineNum="55" parent="globals/MetronomeController" pc="268436368" symbol="startBacklightTimer"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="23" lineNum="56" parent="globals/MetronomeController" pc="268436370" symbol="startBacklightTimer"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="23" lineNum="57" parent="globals/MetronomeController" pc="268436379" symbol="startBacklightTimer"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="23" lineNum="60" parent="globals/MetronomeController" pc="268436394" symbol="startBacklightTimer"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="23" lineNum="61" parent="globals/MetronomeController" pc="268436423" symbol="startBacklightTimer"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="24" lineNum="93" parent="globals/MetronomeController" pc="268436455" symbol="getPulseLength"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="24" lineNum="94" parent="globals/MetronomeController" pc="268436457" symbol="getPulseLength"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="25" lineNum="43" parent="globals/MetronomeController" pc="268436475" symbol="stopMetronome"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="25" lineNum="44" parent="globals/MetronomeController" pc="268436477" symbol="stopMetronome"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="25" lineNum="45" parent="globals/MetronomeController" pc="268436486" symbol="stopMetronome"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="25" lineNum="46" parent="globals/MetronomeController" pc="268436498" symbol="stopMetronome"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="25" lineNum="48" parent="globals/MetronomeController" pc="268436509" symbol="stopMetronome"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="26" lineNum="106" parent="globals/MetronomeController" pc="268436517" symbol="savePulseLength"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="26" lineNum="107" parent="globals/MetronomeController" pc="268436519" symbol="savePulseLength"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="26" lineNum="108" parent="globals/MetronomeController" pc="268436528" symbol="savePulseLength"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="27" lineNum="89" parent="globals/MetronomeController" pc="268436552" symbol="getVibeStrength"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="27" lineNum="90" parent="globals/MetronomeController" pc="268436554" symbol="getVibeStrength"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="28" lineNum="118" parent="globals/MetronomeController" pc="268436572" symbol="&lt;globals/MetronomeController/&lt;&gt;updateInterval&gt;"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="28" lineNum="119" parent="globals/MetronomeController" pc="268436574" symbol="&lt;globals/MetronomeController/&lt;&gt;updateInterval&gt;"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="29" lineNum="64" parent="globals/MetronomeController" pc="268436599" symbol="stopBacklightTimer"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="29" lineNum="65" parent="globals/MetronomeController" pc="268436601" symbol="stopBacklightTimer"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="29" lineNum="66" parent="globals/MetronomeController" pc="268436610" symbol="stopBacklightTimer"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="29" lineNum="67" parent="globals/MetronomeController" pc="268436622" symbol="stopBacklightTimer"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="30" lineNum="32" parent="globals/MetronomeController" pc="268436634" symbol="startMetronome"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="30" lineNum="33" parent="globals/MetronomeController" pc="268436636" symbol="startMetronome"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="30" lineNum="34" parent="globals/MetronomeController" pc="268436643" symbol="startMetronome"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="30" lineNum="35" parent="globals/MetronomeController" pc="268436652" symbol="startMetronome"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="30" lineNum="38" parent="globals/MetronomeController" pc="268436667" symbol="startMetronome"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="30" lineNum="39" parent="globals/MetronomeController" pc="268436696" symbol="startMetronome"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="30" lineNum="40" parent="globals/MetronomeController" pc="268436729" symbol="startMetronome"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="31" lineNum="111" parent="globals/MetronomeController" pc="268436737" symbol="resetSettings"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="31" lineNum="112" parent="globals/MetronomeController" pc="268436739" symbol="resetSettings"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="31" lineNum="113" parent="globals/MetronomeController" pc="268436756" symbol="resetSettings"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="31" lineNum="114" parent="globals/MetronomeController" pc="268436763" symbol="resetSettings"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="31" lineNum="115" parent="globals/MetronomeController" pc="268436782" symbol="resetSettings"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="32" lineNum="101" parent="globals/MetronomeController" pc="268436802" symbol="saveVibeStrength"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="32" lineNum="102" parent="globals/MetronomeController" pc="268436804" symbol="saveVibeStrength"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="32" lineNum="103" parent="globals/MetronomeController" pc="268436813" symbol="saveVibeStrength"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="33" lineNum="14" parent="globals/MetronomeController" pc="268436837" symbol="initialize"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="33" lineNum="15" parent="globals/MetronomeController" pc="268436840" symbol="initialize"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="33" lineNum="16" parent="globals/MetronomeController" pc="268436859" symbol="initialize"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="33" lineNum="17" parent="globals/MetronomeController" pc="268436878" symbol="initialize"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="33" lineNum="19" parent="globals/MetronomeController" pc="268436897" symbol="initialize"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="33" lineNum="20" parent="globals/MetronomeController" pc="268436925" symbol="initialize"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="33" lineNum="21" parent="globals/MetronomeController" pc="268436953" symbol="initialize"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="67" parent="globals/MetronomeSettingsMenuDelegate" pc="268436982" symbol="onBack"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="68" parent="globals/MetronomeSettingsMenuDelegate" pc="268436984" symbol="onBack"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="35" lineNum="10" parent="globals/MetronomeSettingsMenuDelegate" pc="268437000" symbol="initialize"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="35" lineNum="11" parent="globals/MetronomeSettingsMenuDelegate" pc="268437002" symbol="initialize"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="35" lineNum="12" parent="globals/MetronomeSettingsMenuDelegate" pc="268437014" symbol="initialize"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="15" parent="globals/MetronomeSettingsMenuDelegate" pc="268437028" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="16" parent="globals/MetronomeSettingsMenuDelegate" pc="268437031" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="17" parent="globals/MetronomeSettingsMenuDelegate" pc="268437040" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="18" parent="globals/MetronomeSettingsMenuDelegate" pc="268437051" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="19" parent="globals/MetronomeSettingsMenuDelegate" pc="268437076" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="20" parent="globals/MetronomeSettingsMenuDelegate" pc="268437096" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="21" parent="globals/MetronomeSettingsMenuDelegate" pc="268437140" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="22" parent="globals/MetronomeSettingsMenuDelegate" pc="268437184" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="23" parent="globals/MetronomeSettingsMenuDelegate" pc="268437228" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="25" parent="globals/MetronomeSettingsMenuDelegate" pc="268437266" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="26" parent="globals/MetronomeSettingsMenuDelegate" pc="268437277" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="27" parent="globals/MetronomeSettingsMenuDelegate" pc="268437302" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="28" parent="globals/MetronomeSettingsMenuDelegate" pc="268437322" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="29" parent="globals/MetronomeSettingsMenuDelegate" pc="268437366" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="30" parent="globals/MetronomeSettingsMenuDelegate" pc="268437410" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="31" parent="globals/MetronomeSettingsMenuDelegate" pc="268437454" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="33" parent="globals/MetronomeSettingsMenuDelegate" pc="268437492" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="34" parent="globals/MetronomeSettingsMenuDelegate" pc="268437503" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="35" parent="globals/MetronomeSettingsMenuDelegate" pc="268437520" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="38" parent="globals/MetronomeSettingsMenuDelegate" pc="268437538" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="39" parent="globals/MetronomeSettingsMenuDelegate" pc="268437549" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="41" parent="globals/MetronomeSettingsMenuDelegate" pc="268437573" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="42" parent="globals/MetronomeSettingsMenuDelegate" pc="268437584" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="44" parent="globals/MetronomeSettingsMenuDelegate" pc="268437608" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="45" parent="globals/MetronomeSettingsMenuDelegate" pc="268437619" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="47" parent="globals/MetronomeSettingsMenuDelegate" pc="268437643" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="48" parent="globals/MetronomeSettingsMenuDelegate" pc="268437654" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="50" parent="globals/MetronomeSettingsMenuDelegate" pc="268437678" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="51" parent="globals/MetronomeSettingsMenuDelegate" pc="268437689" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="53" parent="globals/MetronomeSettingsMenuDelegate" pc="268437713" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="54" parent="globals/MetronomeSettingsMenuDelegate" pc="268437724" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="56" parent="globals/MetronomeSettingsMenuDelegate" pc="268437748" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="57" parent="globals/MetronomeSettingsMenuDelegate" pc="268437762" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="58" parent="globals/MetronomeSettingsMenuDelegate" pc="268437776" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="59" parent="globals/MetronomeSettingsMenuDelegate" pc="268437801" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="60" parent="globals/MetronomeSettingsMenuDelegate" pc="268437821" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="61" parent="globals/MetronomeSettingsMenuDelegate" pc="268437885" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="62" parent="globals/MetronomeSettingsMenuDelegate" pc="268437949" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="36" lineNum="63" parent="globals/MetronomeSettingsMenuDelegate" pc="268437998" symbol="onSelect"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="37" lineNum="21" parent="globals/MetronomeView" pc="268438034" symbol="onShow"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="37" lineNum="22" parent="globals/MetronomeView" pc="268438036" symbol="onShow"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="38" lineNum="14" parent="globals/MetronomeView" pc="268438054" symbol="onLayout"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="38" lineNum="15" parent="globals/MetronomeView" pc="268438056" symbol="onLayout"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="39" lineNum="52" parent="globals/MetronomeView" pc="268438090" symbol="&lt;globals/MetronomeView/&lt;&gt;updateBpmLabel&gt;"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="39" lineNum="53" parent="globals/MetronomeView" pc="268438093" symbol="&lt;globals/MetronomeView/&lt;&gt;updateBpmLabel&gt;"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="39" lineNum="54" parent="globals/MetronomeView" pc="268438108" symbol="&lt;globals/MetronomeView/&lt;&gt;updateBpmLabel&gt;"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="39" lineNum="55" parent="globals/MetronomeView" pc="268438114" symbol="&lt;globals/MetronomeView/&lt;&gt;updateBpmLabel&gt;"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="40" lineNum="8" parent="globals/MetronomeView" pc="268438151" symbol="initialize"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="40" lineNum="9" parent="globals/MetronomeView" pc="268438153" symbol="initialize"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="40" lineNum="10" parent="globals/MetronomeView" pc="268438165" symbol="initialize"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="41" lineNum="48" parent="globals/MetronomeView" pc="268438179" symbol="onHide"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="41" lineNum="49" parent="globals/MetronomeView" pc="268438181" symbol="onHide"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="42" lineNum="26" parent="globals/MetronomeView" pc="268438199" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="42" lineNum="28" parent="globals/MetronomeView" pc="268438202" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="42" lineNum="29" parent="globals/MetronomeView" pc="268438209" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="42" lineNum="30" parent="globals/MetronomeView" pc="268438225" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="42" lineNum="31" parent="globals/MetronomeView" pc="268438237" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="42" lineNum="33" parent="globals/MetronomeView" pc="268438249" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="42" lineNum="36" parent="globals/MetronomeView" pc="268438265" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="42" lineNum="42" parent="globals/MetronomeView" pc="268438334" symbol="onUpdate"/>
-        <entry filename="c:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\bin\\gen\\006-B4625-00\\source\\Rez.mcgen" id="43" lineNum="16" parent="globals/Rez/Layouts" pc="268438347" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\bin\\gen\\006-B4625-00\\source\\Rez.mcgen" id="43" lineNum="17" parent="globals/Rez/Layouts" pc="268438358" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\bin\\gen\\006-B4625-00\\source\\Rez.mcgen" id="43" lineNum="19" parent="globals/Rez/Layouts" pc="268438477" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\bin\\gen\\006-B4625-00\\source\\Rez.mcgen" id="43" lineNum="21" parent="globals/Rez/Layouts" pc="268438684" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\bin\\gen\\006-B4625-00\\source\\Rez.mcgen" id="43" lineNum="23" parent="globals/Rez/Layouts" pc="268438892" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="1" lineNum="4" parent="globals/MetronomeDelegate" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="1" lineNum="7" parent="globals/MetronomeDelegate" pc="268435471" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="2" lineNum="30" parent="globals" pc="268435501" symbol="getApp"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="2" lineNum="31" parent="globals" pc="268435511" symbol="getApp"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="3" lineNum="12" parent="globals/MetronomeController" pc="268435522" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\bin\\gen\\006-B4625-00\\source\\Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435552" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="5" lineNum="5" parent="globals/MetronomeSettingsMenuDelegate" pc="268435572" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="5" lineNum="7" parent="globals/MetronomeSettingsMenuDelegate" pc="268435583" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="6" lineNum="4" parent="globals/MetronomeView" pc="268435609" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="7" lineNum="5" parent="globals/MetronomeApp" pc="268435621" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="7" lineNum="7" parent="globals/MetronomeApp" pc="268435632" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="8" lineNum="47" parent="globals/MetronomeDelegate" pc="268435662" symbol="onBack"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="8" lineNum="48" parent="globals/MetronomeDelegate" pc="268435664" symbol="onBack"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="8" lineNum="49" parent="globals/MetronomeDelegate" pc="268435679" symbol="onBack"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="9" lineNum="14" parent="globals/MetronomeDelegate" pc="268435681" symbol="onPlusBtn"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="9" lineNum="15" parent="globals/MetronomeDelegate" pc="268435683" symbol="onPlusBtn"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="9" lineNum="16" parent="globals/MetronomeDelegate" pc="268435704" symbol="onPlusBtn"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="10" lineNum="52" parent="globals/MetronomeDelegate" pc="268435706" symbol="onMenu"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="10" lineNum="53" parent="globals/MetronomeDelegate" pc="268435709" symbol="onMenu"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="10" lineNum="54" parent="globals/MetronomeDelegate" pc="268435726" symbol="onMenu"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="10" lineNum="55" parent="globals/MetronomeDelegate" pc="268435751" symbol="onMenu"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="10" lineNum="56" parent="globals/MetronomeDelegate" pc="268435771" symbol="onMenu"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="10" lineNum="57" parent="globals/MetronomeDelegate" pc="268435835" symbol="onMenu"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="10" lineNum="58" parent="globals/MetronomeDelegate" pc="268435899" symbol="onMenu"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="10" lineNum="59" parent="globals/MetronomeDelegate" pc="268435948" symbol="onMenu"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="10" lineNum="60" parent="globals/MetronomeDelegate" pc="268435983" symbol="onMenu"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="11" lineNum="19" parent="globals/MetronomeDelegate" pc="268435985" symbol="onMinusBtn"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="11" lineNum="20" parent="globals/MetronomeDelegate" pc="268435987" symbol="onMinusBtn"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="11" lineNum="21" parent="globals/MetronomeDelegate" pc="268436007" symbol="onMinusBtn"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="12" lineNum="36" parent="globals/MetronomeDelegate" pc="268436009" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="12" lineNum="37" parent="globals/MetronomeDelegate" pc="268436011" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="12" lineNum="38" parent="globals/MetronomeDelegate" pc="268436023" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="12" lineNum="40" parent="globals/MetronomeDelegate" pc="268436033" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="12" lineNum="41" parent="globals/MetronomeDelegate" pc="268436046" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="12" lineNum="42" parent="globals/MetronomeDelegate" pc="268436061" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="12" lineNum="44" parent="globals/MetronomeDelegate" pc="268436066" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="13" lineNum="9" parent="globals/MetronomeDelegate" pc="268436068" symbol="initialize"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="13" lineNum="10" parent="globals/MetronomeDelegate" pc="268436070" symbol="initialize"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="13" lineNum="11" parent="globals/MetronomeDelegate" pc="268436082" symbol="initialize"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="14" lineNum="24" parent="globals/MetronomeDelegate" pc="268436096" symbol="onKey"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="14" lineNum="25" parent="globals/MetronomeDelegate" pc="268436098" symbol="onKey"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="14" lineNum="26" parent="globals/MetronomeDelegate" pc="268436137" symbol="onKey"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="14" lineNum="27" parent="globals/MetronomeDelegate" pc="268436158" symbol="onKey"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="14" lineNum="29" parent="globals/MetronomeDelegate" pc="268436172" symbol="onKey"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="14" lineNum="30" parent="globals/MetronomeDelegate" pc="268436211" symbol="onKey"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="14" lineNum="31" parent="globals/MetronomeDelegate" pc="268436231" symbol="onKey"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeDelegate.mc" id="14" lineNum="33" parent="globals/MetronomeDelegate" pc="268436245" symbol="onKey"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="16" lineNum="85" parent="globals/MetronomeController" pc="268436247" symbol="getBpm"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="16" lineNum="86" parent="globals/MetronomeController" pc="268436249" symbol="getBpm"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="17" lineNum="24" parent="globals/MetronomeController" pc="268436261" symbol="onBeat"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="17" lineNum="25" parent="globals/MetronomeController" pc="268436264" symbol="onBeat"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="17" lineNum="26" parent="globals/MetronomeController" pc="268436268" symbol="onBeat"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="17" lineNum="27" parent="globals/MetronomeController" pc="268436283" symbol="onBeat"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="17" lineNum="29" parent="globals/MetronomeController" pc="268436329" symbol="onBeat"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="18" lineNum="97" parent="globals/MetronomeController" pc="268436345" symbol="saveBpm"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="18" lineNum="98" parent="globals/MetronomeController" pc="268436347" symbol="saveBpm"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="19" lineNum="51" parent="globals/MetronomeController" pc="268436371" symbol="turnOffBacklight"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="19" lineNum="52" parent="globals/MetronomeController" pc="268436373" symbol="turnOffBacklight"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="20" lineNum="71" parent="globals/MetronomeController" pc="268436388" symbol="updateBpm"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="20" lineNum="72" parent="globals/MetronomeController" pc="268436390" symbol="updateBpm"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="20" lineNum="73" parent="globals/MetronomeController" pc="268436395" symbol="updateBpm"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="20" lineNum="74" parent="globals/MetronomeController" pc="268436407" symbol="updateBpm"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="20" lineNum="78" parent="globals/MetronomeController" pc="268436428" symbol="updateBpm"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="20" lineNum="79" parent="globals/MetronomeController" pc="268436439" symbol="updateBpm"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="20" lineNum="82" parent="globals/MetronomeController" pc="268436457" symbol="updateBpm"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="21" lineNum="55" parent="globals/MetronomeController" pc="268436465" symbol="startBacklightTimer"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="21" lineNum="56" parent="globals/MetronomeController" pc="268436467" symbol="startBacklightTimer"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="21" lineNum="57" parent="globals/MetronomeController" pc="268436476" symbol="startBacklightTimer"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="21" lineNum="60" parent="globals/MetronomeController" pc="268436491" symbol="startBacklightTimer"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="21" lineNum="61" parent="globals/MetronomeController" pc="268436520" symbol="startBacklightTimer"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="22" lineNum="93" parent="globals/MetronomeController" pc="268436559" symbol="getPulseLength"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="22" lineNum="94" parent="globals/MetronomeController" pc="268436561" symbol="getPulseLength"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="23" lineNum="43" parent="globals/MetronomeController" pc="268436579" symbol="stopMetronome"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="23" lineNum="44" parent="globals/MetronomeController" pc="268436581" symbol="stopMetronome"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="23" lineNum="45" parent="globals/MetronomeController" pc="268436590" symbol="stopMetronome"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="23" lineNum="46" parent="globals/MetronomeController" pc="268436602" symbol="stopMetronome"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="23" lineNum="48" parent="globals/MetronomeController" pc="268436613" symbol="stopMetronome"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="24" lineNum="106" parent="globals/MetronomeController" pc="268436621" symbol="savePulseLength"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="24" lineNum="107" parent="globals/MetronomeController" pc="268436623" symbol="savePulseLength"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="24" lineNum="108" parent="globals/MetronomeController" pc="268436632" symbol="savePulseLength"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="25" lineNum="89" parent="globals/MetronomeController" pc="268436656" symbol="getVibeStrength"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="25" lineNum="90" parent="globals/MetronomeController" pc="268436658" symbol="getVibeStrength"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="26" lineNum="118" parent="globals/MetronomeController" pc="268436676" symbol="&lt;globals/MetronomeController/&lt;&gt;updateInterval&gt;"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="26" lineNum="119" parent="globals/MetronomeController" pc="268436678" symbol="&lt;globals/MetronomeController/&lt;&gt;updateInterval&gt;"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="27" lineNum="64" parent="globals/MetronomeController" pc="268436703" symbol="stopBacklightTimer"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="27" lineNum="65" parent="globals/MetronomeController" pc="268436705" symbol="stopBacklightTimer"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="27" lineNum="66" parent="globals/MetronomeController" pc="268436714" symbol="stopBacklightTimer"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="27" lineNum="67" parent="globals/MetronomeController" pc="268436726" symbol="stopBacklightTimer"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="28" lineNum="32" parent="globals/MetronomeController" pc="268436738" symbol="startMetronome"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="28" lineNum="33" parent="globals/MetronomeController" pc="268436740" symbol="startMetronome"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="28" lineNum="34" parent="globals/MetronomeController" pc="268436747" symbol="startMetronome"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="28" lineNum="35" parent="globals/MetronomeController" pc="268436756" symbol="startMetronome"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="28" lineNum="38" parent="globals/MetronomeController" pc="268436771" symbol="startMetronome"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="28" lineNum="39" parent="globals/MetronomeController" pc="268436800" symbol="startMetronome"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="28" lineNum="40" parent="globals/MetronomeController" pc="268436833" symbol="startMetronome"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="29" lineNum="111" parent="globals/MetronomeController" pc="268436841" symbol="resetSettings"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="29" lineNum="112" parent="globals/MetronomeController" pc="268436843" symbol="resetSettings"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="29" lineNum="113" parent="globals/MetronomeController" pc="268436860" symbol="resetSettings"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="29" lineNum="114" parent="globals/MetronomeController" pc="268436867" symbol="resetSettings"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="29" lineNum="115" parent="globals/MetronomeController" pc="268436886" symbol="resetSettings"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="30" lineNum="101" parent="globals/MetronomeController" pc="268436906" symbol="saveVibeStrength"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="30" lineNum="102" parent="globals/MetronomeController" pc="268436908" symbol="saveVibeStrength"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="30" lineNum="103" parent="globals/MetronomeController" pc="268436917" symbol="saveVibeStrength"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="31" lineNum="14" parent="globals/MetronomeController" pc="268436941" symbol="initialize"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="31" lineNum="15" parent="globals/MetronomeController" pc="268436944" symbol="initialize"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="31" lineNum="16" parent="globals/MetronomeController" pc="268436963" symbol="initialize"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="31" lineNum="17" parent="globals/MetronomeController" pc="268436982" symbol="initialize"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="31" lineNum="19" parent="globals/MetronomeController" pc="268437001" symbol="initialize"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="31" lineNum="20" parent="globals/MetronomeController" pc="268437029" symbol="initialize"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeController.mc" id="31" lineNum="21" parent="globals/MetronomeController" pc="268437057" symbol="initialize"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="32" lineNum="67" parent="globals/MetronomeSettingsMenuDelegate" pc="268437086" symbol="onBack"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="32" lineNum="68" parent="globals/MetronomeSettingsMenuDelegate" pc="268437088" symbol="onBack"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="33" lineNum="10" parent="globals/MetronomeSettingsMenuDelegate" pc="268437104" symbol="initialize"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="33" lineNum="11" parent="globals/MetronomeSettingsMenuDelegate" pc="268437106" symbol="initialize"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="33" lineNum="12" parent="globals/MetronomeSettingsMenuDelegate" pc="268437118" symbol="initialize"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="15" parent="globals/MetronomeSettingsMenuDelegate" pc="268437132" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="16" parent="globals/MetronomeSettingsMenuDelegate" pc="268437135" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="17" parent="globals/MetronomeSettingsMenuDelegate" pc="268437144" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="18" parent="globals/MetronomeSettingsMenuDelegate" pc="268437155" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="19" parent="globals/MetronomeSettingsMenuDelegate" pc="268437180" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="20" parent="globals/MetronomeSettingsMenuDelegate" pc="268437200" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="21" parent="globals/MetronomeSettingsMenuDelegate" pc="268437244" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="22" parent="globals/MetronomeSettingsMenuDelegate" pc="268437288" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="23" parent="globals/MetronomeSettingsMenuDelegate" pc="268437332" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="25" parent="globals/MetronomeSettingsMenuDelegate" pc="268437370" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="26" parent="globals/MetronomeSettingsMenuDelegate" pc="268437381" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="27" parent="globals/MetronomeSettingsMenuDelegate" pc="268437406" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="28" parent="globals/MetronomeSettingsMenuDelegate" pc="268437426" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="29" parent="globals/MetronomeSettingsMenuDelegate" pc="268437470" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="30" parent="globals/MetronomeSettingsMenuDelegate" pc="268437514" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="31" parent="globals/MetronomeSettingsMenuDelegate" pc="268437558" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="33" parent="globals/MetronomeSettingsMenuDelegate" pc="268437596" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="34" parent="globals/MetronomeSettingsMenuDelegate" pc="268437607" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="35" parent="globals/MetronomeSettingsMenuDelegate" pc="268437624" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="38" parent="globals/MetronomeSettingsMenuDelegate" pc="268437642" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="39" parent="globals/MetronomeSettingsMenuDelegate" pc="268437653" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="41" parent="globals/MetronomeSettingsMenuDelegate" pc="268437677" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="42" parent="globals/MetronomeSettingsMenuDelegate" pc="268437688" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="44" parent="globals/MetronomeSettingsMenuDelegate" pc="268437712" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="45" parent="globals/MetronomeSettingsMenuDelegate" pc="268437723" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="47" parent="globals/MetronomeSettingsMenuDelegate" pc="268437747" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="48" parent="globals/MetronomeSettingsMenuDelegate" pc="268437758" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="50" parent="globals/MetronomeSettingsMenuDelegate" pc="268437782" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="51" parent="globals/MetronomeSettingsMenuDelegate" pc="268437793" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="53" parent="globals/MetronomeSettingsMenuDelegate" pc="268437817" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="54" parent="globals/MetronomeSettingsMenuDelegate" pc="268437828" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="56" parent="globals/MetronomeSettingsMenuDelegate" pc="268437852" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="57" parent="globals/MetronomeSettingsMenuDelegate" pc="268437866" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="58" parent="globals/MetronomeSettingsMenuDelegate" pc="268437880" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="59" parent="globals/MetronomeSettingsMenuDelegate" pc="268437905" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="60" parent="globals/MetronomeSettingsMenuDelegate" pc="268437925" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="61" parent="globals/MetronomeSettingsMenuDelegate" pc="268437989" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="62" parent="globals/MetronomeSettingsMenuDelegate" pc="268438053" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeMenuDelegate.mc" id="34" lineNum="63" parent="globals/MetronomeSettingsMenuDelegate" pc="268438102" symbol="onSelect"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="35" lineNum="21" parent="globals/MetronomeView" pc="268438138" symbol="onShow"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="35" lineNum="22" parent="globals/MetronomeView" pc="268438140" symbol="onShow"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="36" lineNum="14" parent="globals/MetronomeView" pc="268438158" symbol="onLayout"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="36" lineNum="15" parent="globals/MetronomeView" pc="268438160" symbol="onLayout"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="37" lineNum="52" parent="globals/MetronomeView" pc="268438194" symbol="&lt;globals/MetronomeView/&lt;&gt;updateBpmLabel&gt;"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="37" lineNum="53" parent="globals/MetronomeView" pc="268438197" symbol="&lt;globals/MetronomeView/&lt;&gt;updateBpmLabel&gt;"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="37" lineNum="54" parent="globals/MetronomeView" pc="268438212" symbol="&lt;globals/MetronomeView/&lt;&gt;updateBpmLabel&gt;"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="37" lineNum="55" parent="globals/MetronomeView" pc="268438218" symbol="&lt;globals/MetronomeView/&lt;&gt;updateBpmLabel&gt;"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="38" lineNum="8" parent="globals/MetronomeView" pc="268438255" symbol="initialize"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="38" lineNum="9" parent="globals/MetronomeView" pc="268438257" symbol="initialize"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="38" lineNum="10" parent="globals/MetronomeView" pc="268438269" symbol="initialize"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="39" lineNum="48" parent="globals/MetronomeView" pc="268438283" symbol="onHide"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="39" lineNum="49" parent="globals/MetronomeView" pc="268438285" symbol="onHide"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="40" lineNum="26" parent="globals/MetronomeView" pc="268438303" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="40" lineNum="28" parent="globals/MetronomeView" pc="268438306" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="40" lineNum="29" parent="globals/MetronomeView" pc="268438313" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="40" lineNum="30" parent="globals/MetronomeView" pc="268438329" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="40" lineNum="31" parent="globals/MetronomeView" pc="268438341" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="40" lineNum="33" parent="globals/MetronomeView" pc="268438353" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="40" lineNum="36" parent="globals/MetronomeView" pc="268438369" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeView.mc" id="40" lineNum="42" parent="globals/MetronomeView" pc="268438438" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="41" lineNum="14" parent="globals/MetronomeApp" pc="268438451" symbol="onStart"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="41" lineNum="15" parent="globals/MetronomeApp" pc="268438453" symbol="onStart"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="42" lineNum="25" parent="globals/MetronomeApp" pc="268438466" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="42" lineNum="26" parent="globals/MetronomeApp" pc="268438468" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="43" lineNum="9" parent="globals/MetronomeApp" pc="268438515" symbol="initialize"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="43" lineNum="10" parent="globals/MetronomeApp" pc="268438517" symbol="initialize"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="44" lineNum="19" parent="globals/MetronomeApp" pc="268438530" symbol="onStop"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="44" lineNum="20" parent="globals/MetronomeApp" pc="268438532" symbol="onStop"/>
+        <entry filename="C:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\source\\MetronomeApp.mc" id="44" lineNum="21" parent="globals/MetronomeApp" pc="268438544" symbol="onStop"/>
+        <entry filename="c:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\bin\\gen\\006-B4625-00\\source\\Rez.mcgen" id="45" lineNum="15" parent="globals/Rez/Layouts" pc="268438557" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\bin\\gen\\006-B4625-00\\source\\Rez.mcgen" id="45" lineNum="16" parent="globals/Rez/Layouts" pc="268438568" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\bin\\gen\\006-B4625-00\\source\\Rez.mcgen" id="45" lineNum="18" parent="globals/Rez/Layouts" pc="268438687" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\bin\\gen\\006-B4625-00\\source\\Rez.mcgen" id="45" lineNum="20" parent="globals/Rez/Layouts" pc="268438894" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\myles\\Garmin Connect IQ Dev\\Metronome\\bin\\gen\\006-B4625-00\\source\\Rez.mcgen" id="45" lineNum="22" parent="globals/Rez/Layouts" pc="268439102" symbol="MainLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -191,15 +205,15 @@
         <entry id="27" method="true" symbol="getPulseLength"/>
         <entry id="54" symbol="three"/>
         <entry id="41" method="true" symbol="&lt;globals/MetronomeController/&lt;&gt;updateInterval&gt;"/>
-        <entry field="true" id="44" symbol="AppIcon"/>
-        <entry id="15" method="true" symbol="onMinusBtn"/>
+        <entry field="true" id="45" symbol="AppIcon"/>
+        <entry id="14" method="true" symbol="onMinusBtn"/>
         <entry field="true" id="8389103" symbol="behavior"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry id="9" object="true" symbol="MetronomeDelegate"/>
         <entry id="40" method="true" symbol="updateBpm"/>
         <entry id="53" symbol="two"/>
         <entry field="true" id="8392382" method="true" symbol="reset"/>
-        <entry field="true" id="13" symbol="app"/>
+        <entry field="true" id="12" symbol="app"/>
         <entry id="57" symbol="vibeThree"/>
         <entry id="26" method="true" symbol="getBpm"/>
         <entry field="true" id="49" symbol="AppName"/>
@@ -219,7 +233,7 @@
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
         <entry id="55" symbol="vibeOne"/>
-        <entry id="16" method="true" symbol="onPlusBtn"/>
+        <entry id="15" method="true" symbol="onPlusBtn"/>
         <entry field="true" id="8389899" symbol="stateSelected"/>
         <entry field="true" id="47" symbol="PlusBtn"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
@@ -236,12 +250,13 @@
         <entry id="38" method="true" symbol="stopMetronome"/>
         <entry id="36" method="true" symbol="startMetronome"/>
         <entry id="8388987" method="true" symbol="vibrate"/>
+        <entry field="true" id="20" symbol="screenBacklightTimeout"/>
         <entry id="10" object="true" symbol="MetronomeSettingsMenuDelegate"/>
         <entry id="56" symbol="vibeTwo"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
         <entry id="8" object="true" symbol="MetronomeController"/>
         <entry field="true" id="21" symbol="settingsTitle"/>
-        <entry field="true" id="19" symbol="defaultVibeStrength"/>
+        <entry field="true" id="18" symbol="defaultVibeStrength"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry field="true" id="8389897" symbol="stateDefault"/>
         <entry id="8389619" method="true" symbol="onSelect"/>
@@ -249,30 +264,30 @@
         <entry id="39" method="true" symbol="turnOffBacklight"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="30" method="true" symbol="onBeat"/>
-        <entry field="true" id="45" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="32" method="true" symbol="saveBpm"/>
-        <entry field="true" id="20" symbol="pulseLength"/>
+        <entry field="true" id="19" symbol="pulseLength"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry field="true" id="18" symbol="defaultPulseLength"/>
+        <entry field="true" id="17" symbol="defaultPulseLength"/>
         <entry id="8389279" method="true" symbol="onStart"/>
         <entry id="35" method="true" symbol="startBacklightTimer"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
-        <entry field="true" id="17" symbol="defaultBpm"/>
+        <entry field="true" id="16" symbol="defaultBpm"/>
+        <entry id="8389097" method="true" symbol="onKey"/>
         <entry id="43" method="true" symbol="&lt;globals/MetronomeView/&lt;&gt;updateBpmLabel&gt;"/>
         <entry field="true" id="24" symbol="beatTimer"/>
         <entry field="true" id="8389900" symbol="stateDisabled"/>
         <entry id="42" module="true" symbol="Layouts"/>
         <entry id="6" object="true" symbol="MetronomeApp"/>
-        <entry field="true" id="14" symbol="common"/>
+        <entry field="true" id="13" symbol="common"/>
         <entry id="28" method="true" symbol="getVibeStrength"/>
         <entry field="true" id="46" symbol="MinusBtn"/>
         <entry id="8389125" method="true" symbol="onHide"/>
-        <entry field="true" id="12" symbol="controller"/>
+        <entry field="true" id="44" symbol="controller"/>
         <entry id="34" method="true" symbol="saveVibeStrength"/>
         <entry id="7" object="true" symbol="MetronomeAppCommon"/>
         <entry id="11" object="true" symbol="MetronomeView"/>
@@ -281,42 +296,37 @@
         <entry id="8389101" method="true" symbol="onSwipe"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268435515" name="state" stackId="1" startPc="268435501"/>
-        <entry arg="true" endPc="268435606" name="state" stackId="1" startPc="268435580"/>
-        <entry endPc="268436071" name="menu" stackId="1" startPc="268435796"/>
-        <entry arg="true" endPc="268436121" name="swipeEvent" stackId="1" startPc="268436096"/>
-        <entry endPc="268436246" name="vibeData" stackId="1" startPc="268436167"/>
-        <entry arg="true" endPc="268436367" name="add" stackId="1" startPc="268436291"/>
-        <entry arg="true" endPc="268436551" name="newPulseLength" stackId="1" startPc="268436517"/>
-        <entry arg="true" endPc="268436836" name="newVibeStrength" stackId="1" startPc="268436802"/>
-        <entry endPc="268436980" name="bpmStore" stackId="1" startPc="268436840"/>
-        <entry endPc="268436980" name="vibeStrengthStore" stackId="2" startPc="268436840"/>
-        <entry endPc="268436980" name="pulseLengthStore" stackId="3" startPc="268436840"/>
-        <entry arg="true" endPc="268438033" name="item" stackId="1" startPc="268437028"/>
-        <entry endPc="268437262" name="menu" stackId="2" startPc="268437051"/>
-        <entry endPc="268437488" name="menu" stackId="3" startPc="268437277"/>
-        <entry endPc="268438032" name="menu" stackId="4" startPc="268437538"/>
-        <entry arg="true" endPc="268438089" name="dc" stackId="1" startPc="268438054"/>
-        <entry endPc="268438149" name="label" stackId="1" startPc="268438093"/>
-        <entry arg="true" endPc="268438346" name="dc" stackId="1" startPc="268438199"/>
-        <entry endPc="268438345" name="centerX" stackId="2" startPc="268438202"/>
-        <entry endPc="268438345" name="bottomY" stackId="3" startPc="268438202"/>
-        <entry endPc="268438345" name="arrow" stackId="4" startPc="268438202"/>
-        <entry arg="true" endPc="268438911" name="dc" stackId="1" startPc="268438347"/>
-        <entry endPc="268438911" name="rez_cmp_local_text_bpmLabel" stackId="2" startPc="268438358"/>
-        <entry endPc="268438911" name="rez_cmp_local_custom_selectable_11939594661139614796" stackId="3" startPc="268438358"/>
-        <entry endPc="268438911" name="rez_cmp_local_custom_selectable_83741574912206153191" stackId="4" startPc="268438358"/>
+        <entry endPc="268435984" name="menu" stackId="1" startPc="268435709"/>
+        <entry arg="true" endPc="268436067" name="swipeEvent" stackId="1" startPc="268436009"/>
+        <entry arg="true" endPc="268436246" name="keyEvent" stackId="1" startPc="268436096"/>
+        <entry endPc="268436343" name="vibeData" stackId="1" startPc="268436264"/>
+        <entry arg="true" endPc="268436464" name="add" stackId="1" startPc="268436388"/>
+        <entry arg="true" endPc="268436655" name="newPulseLength" stackId="1" startPc="268436621"/>
+        <entry arg="true" endPc="268436940" name="newVibeStrength" stackId="1" startPc="268436906"/>
+        <entry endPc="268437084" name="bpmStore" stackId="1" startPc="268436944"/>
+        <entry endPc="268437084" name="vibeStrengthStore" stackId="2" startPc="268436944"/>
+        <entry endPc="268437084" name="pulseLengthStore" stackId="3" startPc="268436944"/>
+        <entry arg="true" endPc="268438137" name="item" stackId="1" startPc="268437132"/>
+        <entry endPc="268437366" name="menu" stackId="2" startPc="268437155"/>
+        <entry endPc="268437592" name="menu" stackId="3" startPc="268437381"/>
+        <entry endPc="268438136" name="menu" stackId="4" startPc="268437642"/>
+        <entry arg="true" endPc="268438193" name="dc" stackId="1" startPc="268438158"/>
+        <entry endPc="268438253" name="label" stackId="1" startPc="268438197"/>
+        <entry arg="true" endPc="268438450" name="dc" stackId="1" startPc="268438303"/>
+        <entry endPc="268438449" name="centerX" stackId="2" startPc="268438306"/>
+        <entry endPc="268438449" name="bottomY" stackId="3" startPc="268438306"/>
+        <entry endPc="268438449" name="arrow" stackId="4" startPc="268438306"/>
+        <entry arg="true" endPc="268438465" name="state" stackId="1" startPc="268438451"/>
+        <entry arg="true" endPc="268438556" name="state" stackId="1" startPc="268438530"/>
+        <entry arg="true" endPc="268439121" name="dc" stackId="1" startPc="268438557"/>
+        <entry endPc="268439121" name="rez_cmp_local_text_bpmLabel" stackId="2" startPc="268438568"/>
+        <entry endPc="268439121" name="rez_cmp_local_custom_selectable_11939594661139614796" stackId="3" startPc="268438568"/>
+        <entry endPc="268439121" name="rez_cmp_local_custom_selectable_83741574912206153191" stackId="4" startPc="268438568"/>
     </localVars>
     <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B4625-00"/>
     <annotations>
-        <annotationEntry annotation="background" class="MetronomeApp" module="globals" symbol="onStop"/>
-        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="AppIcon"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="MinusBtn"/>
-        <annotationEntry annotation="background" class="MetronomeApp" module="globals" symbol="onStart"/>
-        <annotationEntry annotation="background" class="MetronomeApp" module="globals" symbol="initialize"/>
-        <annotationEntry annotation="background" class="MetronomeApp" module="globals" symbol="controller"/>
-        <annotationEntry annotation="background" class="MetronomeApp" module="globals" symbol="getInitialView"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="bpmLabel"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
@@ -324,124 +334,117 @@
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/MetronomeApp" offset="161" parentId="globals" symbolId="MetronomeApp" type="class"/>
-        <dataEntry label="globals/MetronomeDelegate" offset="241" parentId="globals" symbolId="MetronomeDelegate" type="class"/>
-        <dataEntry label="globals/MetronomeAppCommon" offset="339" parentId="globals" symbolId="MetronomeAppCommon" type="class"/>
-        <dataEntry label="globals/MetronomeController" offset="446" parentId="globals" symbolId="MetronomeController" type="class"/>
-        <dataEntry label="globals/Rez" offset="688" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/MetronomeSettingsMenuDelegate" offset="741" parentId="globals" symbolId="MetronomeSettingsMenuDelegate" type="class"/>
-        <dataEntry label="globals/MetronomeView" offset="821" parentId="globals" symbolId="MetronomeView" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="919" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="981" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="1016" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/MetronomeDelegate" offset="161" parentId="globals" symbolId="MetronomeDelegate" type="class"/>
+        <dataEntry label="globals/MetronomeAppCommon" offset="277" parentId="globals" symbolId="MetronomeAppCommon" type="class"/>
+        <dataEntry label="globals/MetronomeController" offset="393" parentId="globals" symbolId="MetronomeController" type="class"/>
+        <dataEntry label="globals/Rez" offset="635" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/MetronomeSettingsMenuDelegate" offset="688" parentId="globals" symbolId="MetronomeSettingsMenuDelegate" type="class"/>
+        <dataEntry label="globals/MetronomeView" offset="768" parentId="globals" symbolId="MetronomeView" type="class"/>
+        <dataEntry label="globals/MetronomeApp" offset="866" parentId="globals" symbolId="MetronomeApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="946" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="999" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1034" parentId="Rez" symbolId="Strings" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
-        <functionEntry accessMode="public" endPc="268435500" name="&lt;init&gt;" parent="MetronomeApp" startPc="268435460">
+        <functionEntry accessMode="public" endPc="268435500" name="&lt;init&gt;" parent="MetronomeDelegate" startPc="268435460">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435515" name="onStart" parent="MetronomeApp" startPc="268435501">
-            <param id="state"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435564" name="getInitialView" parent="MetronomeApp" startPc="268435516">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435579" name="initialize" parent="MetronomeApp" startPc="268435565">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435606" name="onStop" parent="MetronomeApp" startPc="268435580">
-            <param id="state"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435647" name="&lt;init&gt;" parent="MetronomeDelegate" startPc="268435607">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435668" name="getApp" startPc="268435648">
+        <functionEntry accessMode="public" endPc="268435521" name="getApp" startPc="268435501">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="MetronomeAppCommon">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435698" name="&lt;init&gt;" parent="MetronomeController" startPc="268435669">
+        <functionEntry accessMode="public" endPc="268435551" name="&lt;init&gt;" parent="MetronomeController" startPc="268435522">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435718" name="&lt;init&gt;" parent="Rez" startPc="268435699">
+        <functionEntry accessMode="public" endPc="268435571" name="&lt;init&gt;" parent="Rez" startPc="268435552">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435755" name="&lt;init&gt;" parent="MetronomeSettingsMenuDelegate" startPc="268435719">
+        <functionEntry accessMode="public" endPc="268435608" name="&lt;init&gt;" parent="MetronomeSettingsMenuDelegate" startPc="268435572">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435767" name="&lt;init&gt;" parent="MetronomeView" startPc="268435756">
+        <functionEntry accessMode="public" endPc="268435620" name="&lt;init&gt;" parent="MetronomeView" startPc="268435609">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435792" name="onPlusBtn" parent="MetronomeDelegate" startPc="268435768">
+        <functionEntry accessMode="public" endPc="268435661" name="&lt;init&gt;" parent="MetronomeApp" startPc="268435621">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436071" name="onMenu" parent="MetronomeDelegate" startPc="268435793">
+        <functionEntry accessMode="public" endPc="268435680" name="onBack" parent="MetronomeDelegate" startPc="268435662">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436095" name="onMinusBtn" parent="MetronomeDelegate" startPc="268436072">
+        <functionEntry accessMode="public" endPc="268435705" name="onPlusBtn" parent="MetronomeDelegate" startPc="268435681">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436121" name="onSwipe" parent="MetronomeDelegate" startPc="268436096">
+        <functionEntry accessMode="public" endPc="268435984" name="onMenu" parent="MetronomeDelegate" startPc="268435706">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436008" name="onMinusBtn" parent="MetronomeDelegate" startPc="268435985">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436067" name="onSwipe" parent="MetronomeDelegate" startPc="268436009">
             <param id="swipeEvent"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436149" name="initialize" parent="MetronomeDelegate" startPc="268436122">
+        <functionEntry accessMode="public" endPc="268436095" name="initialize" parent="MetronomeDelegate" startPc="268436068">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436246" name="onKey" parent="MetronomeDelegate" startPc="268436096">
+            <param id="keyEvent"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="initialize" parent="MetronomeAppCommon">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436163" name="getBpm" parent="MetronomeController" startPc="268436150">
+        <functionEntry accessMode="public" endPc="268436260" name="getBpm" parent="MetronomeController" startPc="268436247">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436247" name="onBeat" parent="MetronomeController" startPc="268436164">
+        <functionEntry accessMode="public" endPc="268436344" name="onBeat" parent="MetronomeController" startPc="268436261">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436273" name="saveBpm" parent="MetronomeController" startPc="268436248">
+        <functionEntry accessMode="public" endPc="268436370" name="saveBpm" parent="MetronomeController" startPc="268436345">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436290" name="turnOffBacklight" parent="MetronomeController" startPc="268436274">
+        <functionEntry accessMode="public" endPc="268436387" name="turnOffBacklight" parent="MetronomeController" startPc="268436371">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436367" name="updateBpm" parent="MetronomeController" startPc="268436291">
+        <functionEntry accessMode="public" endPc="268436464" name="updateBpm" parent="MetronomeController" startPc="268436388">
             <param id="add"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436454" name="startBacklightTimer" parent="MetronomeController" startPc="268436368">
+        <functionEntry accessMode="public" endPc="268436558" name="startBacklightTimer" parent="MetronomeController" startPc="268436465">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436474" name="getPulseLength" parent="MetronomeController" startPc="268436455">
+        <functionEntry accessMode="public" endPc="268436578" name="getPulseLength" parent="MetronomeController" startPc="268436559">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436516" name="stopMetronome" parent="MetronomeController" startPc="268436475">
+        <functionEntry accessMode="public" endPc="268436620" name="stopMetronome" parent="MetronomeController" startPc="268436579">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436551" name="savePulseLength" parent="MetronomeController" startPc="268436517">
+        <functionEntry accessMode="public" endPc="268436655" name="savePulseLength" parent="MetronomeController" startPc="268436621">
             <param id="newPulseLength"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436571" name="getVibeStrength" parent="MetronomeController" startPc="268436552">
+        <functionEntry accessMode="public" endPc="268436675" name="getVibeStrength" parent="MetronomeController" startPc="268436656">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268436598" name="&lt;globals/MetronomeController/&lt;&gt;updateInterval&gt;" parent="MetronomeController" startPc="268436572">
+        <functionEntry accessMode="private" endPc="268436702" name="&lt;globals/MetronomeController/&lt;&gt;updateInterval&gt;" parent="MetronomeController" startPc="268436676">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436633" name="stopBacklightTimer" parent="MetronomeController" startPc="268436599">
+        <functionEntry accessMode="public" endPc="268436737" name="stopBacklightTimer" parent="MetronomeController" startPc="268436703">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436736" name="startMetronome" parent="MetronomeController" startPc="268436634">
+        <functionEntry accessMode="public" endPc="268436840" name="startMetronome" parent="MetronomeController" startPc="268436738">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436801" name="resetSettings" parent="MetronomeController" startPc="268436737">
+        <functionEntry accessMode="public" endPc="268436905" name="resetSettings" parent="MetronomeController" startPc="268436841">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436836" name="saveVibeStrength" parent="MetronomeController" startPc="268436802">
+        <functionEntry accessMode="public" endPc="268436940" name="saveVibeStrength" parent="MetronomeController" startPc="268436906">
             <param id="newVibeStrength"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436981" name="initialize" parent="MetronomeController" startPc="268436837">
+        <functionEntry accessMode="public" endPc="268437085" name="initialize" parent="MetronomeController" startPc="268436941">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -453,37 +456,51 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436999" name="onBack" parent="MetronomeSettingsMenuDelegate" startPc="268436982">
+        <functionEntry accessMode="public" endPc="268437103" name="onBack" parent="MetronomeSettingsMenuDelegate" startPc="268437086">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437027" name="initialize" parent="MetronomeSettingsMenuDelegate" startPc="268437000">
+        <functionEntry accessMode="public" endPc="268437131" name="initialize" parent="MetronomeSettingsMenuDelegate" startPc="268437104">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438033" name="onSelect" parent="MetronomeSettingsMenuDelegate" startPc="268437028">
+        <functionEntry accessMode="public" endPc="268438137" name="onSelect" parent="MetronomeSettingsMenuDelegate" startPc="268437132">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438053" name="onShow" parent="MetronomeView" startPc="268438034">
+        <functionEntry accessMode="public" endPc="268438157" name="onShow" parent="MetronomeView" startPc="268438138">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438089" name="onLayout" parent="MetronomeView" startPc="268438054">
+        <functionEntry accessMode="public" endPc="268438193" name="onLayout" parent="MetronomeView" startPc="268438158">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268438150" name="&lt;globals/MetronomeView/&lt;&gt;updateBpmLabel&gt;" parent="MetronomeView" startPc="268438090">
+        <functionEntry accessMode="private" endPc="268438254" name="&lt;globals/MetronomeView/&lt;&gt;updateBpmLabel&gt;" parent="MetronomeView" startPc="268438194">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438178" name="initialize" parent="MetronomeView" startPc="268438151">
+        <functionEntry accessMode="public" endPc="268438282" name="initialize" parent="MetronomeView" startPc="268438255">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438198" name="onHide" parent="MetronomeView" startPc="268438179">
+        <functionEntry accessMode="public" endPc="268438302" name="onHide" parent="MetronomeView" startPc="268438283">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438346" name="onUpdate" parent="MetronomeView" startPc="268438199">
+        <functionEntry accessMode="public" endPc="268438450" name="onUpdate" parent="MetronomeView" startPc="268438303">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438911" name="MainLayout" parent="Layouts" startPc="268438347">
+        <functionEntry accessMode="public" endPc="268438465" name="onStart" parent="MetronomeApp" startPc="268438451">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438514" name="getInitialView" parent="MetronomeApp" startPc="268438466">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438529" name="initialize" parent="MetronomeApp" startPc="268438515">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438556" name="onStop" parent="MetronomeApp" startPc="268438530">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439121" name="MainLayout" parent="Layouts" startPc="268438557">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

@@ -21,10 +21,31 @@ class MetronomeDelegate extends WatchUi.BehaviorDelegate {
         return true;
     }
 
+    function onKey(keyEvent as KeyEvent) as Boolean {
+        if (keyEvent.getKey() == WatchUi.KEY_UP || keyEvent.getKey() == WatchUi.KEY_UP_LEFT || keyEvent.getKey() == WatchUi.KEY_UP_RIGHT) {
+            app.controller.updateBpm(1);
+            WatchUi.requestUpdate();
+        }
+        else if (keyEvent.getKey() == WatchUi.KEY_DOWN || keyEvent.getKey() == WatchUi.KEY_DOWN_LEFT || keyEvent.getKey() == WatchUi.KEY_DOWN_RIGHT) {
+            app.controller.updateBpm(0);
+            WatchUi.requestUpdate();
+        }
+        return true;
+    }
+
     function onSwipe(swipeEvent as SwipeEvent) as Boolean {
         if (swipeEvent.getDirection() == WatchUi.SWIPE_UP) {
             return onMenu();
         }
+        else if (swipeEvent.getDirection() == WatchUi.SWIPE_RIGHT) {
+            WatchUi.popView(WatchUi.SLIDE_RIGHT);
+            return true;
+        }
+        return true;
+    }
+
+    function onBack() as Boolean {
+        WatchUi.popView(WatchUi.SLIDE_RIGHT);
         return true;
     }
 
