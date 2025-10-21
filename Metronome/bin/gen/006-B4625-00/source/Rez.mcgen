@@ -13,11 +13,13 @@ module Rez {
 
     module Layouts {
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_text_bpmLabel = new WatchUi.Text({:identifier=>"bpmLabel", :locX=>(390 * 0.5), :locY=>((390 - dc.getFontHeight(Graphics.FONT_MEDIUM)) * 0.5), :text=>$.Rez.Strings.bpmLabel, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+            var rez_cmp_local_var_dc_getWidth = dc.getWidth();
 
-            var rez_cmp_local_custom_selectable_11939594661139614796 = new WatchUi.Button({:stateHighlighted=>new WatchUi.Bitmap({:rezId=>$.Rez.Drawables.PlusBtn}), :stateSelected=>Graphics.COLOR_RED, :stateDefault=>new WatchUi.Bitmap({:rezId=>$.Rez.Drawables.PlusBtn}), :stateDisabled=>Graphics.COLOR_BLACK, :width=>70, :locX=>(390 / 2) - (70 / 2), :locY=>50, :behavior=>:onPlusBtn, :height=>70});
+            var rez_cmp_local_text_bpmLabel = new WatchUi.Text({:identifier=>"bpmLabel", :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>((dc.getHeight() - dc.getFontHeight(Graphics.FONT_MEDIUM)) * 0.5), :text=>$.Rez.Strings.bpmLabel, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
 
-            var rez_cmp_local_custom_selectable_83741574912206153191 = new WatchUi.Button({:stateHighlighted=>new WatchUi.Bitmap({:rezId=>$.Rez.Drawables.MinusBtn}), :stateSelected=>Graphics.COLOR_RED, :stateDefault=>new WatchUi.Bitmap({:rezId=>$.Rez.Drawables.MinusBtn}), :stateDisabled=>Graphics.COLOR_BLACK, :width=>70, :locX=>(390 / 2) - (70 / 2), :locY=>270, :behavior=>:onMinusBtn, :height=>70});
+            var rez_cmp_local_custom_selectable_11939594661139614796 = new WatchUi.Button({:stateHighlighted=>new WatchUi.Bitmap({:rezId=>$.Rez.Drawables.PlusBtn}), :stateSelected=>Graphics.COLOR_RED, :stateDefault=>new WatchUi.Bitmap({:rezId=>$.Rez.Drawables.PlusBtn}), :stateDisabled=>Graphics.COLOR_BLACK, :width=>70, :locX=>(rez_cmp_local_var_dc_getWidth / 2) - (70 / 2), :locY=>50, :behavior=>:onPlusBtn, :height=>70});
+
+            var rez_cmp_local_custom_selectable_83741574912206153191 = new WatchUi.Button({:stateHighlighted=>new WatchUi.Bitmap({:rezId=>$.Rez.Drawables.MinusBtn}), :stateSelected=>Graphics.COLOR_RED, :stateDefault=>new WatchUi.Bitmap({:rezId=>$.Rez.Drawables.MinusBtn}), :stateDisabled=>Graphics.COLOR_BLACK, :width=>70, :locX=>(rez_cmp_local_var_dc_getWidth / 2) - (70 / 2), :locY=>270, :behavior=>:onMinusBtn, :height=>70});
 
             return [rez_cmp_local_text_bpmLabel, rez_cmp_local_custom_selectable_11939594661139614796, rez_cmp_local_custom_selectable_83741574912206153191] as Array<WatchUi.Drawable>;
         }

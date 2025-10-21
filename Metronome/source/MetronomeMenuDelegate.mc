@@ -30,7 +30,14 @@ class MetronomeSettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
             menu.addItem(new WatchUi.MenuItem("100 ms", null, :pulseThree, null));
             WatchUi.pushView(menu, new MetronomeSettingsMenuDelegate(), WatchUi.SLIDE_LEFT);
         }
-        else if (item == :three) { // reset settings
+        else if (item == :three) { // bpm add
+            var menu = new WatchUi.Menu2(null);
+            menu.setTitle(common.bpmAdd);
+            menu.addItem(new WatchUi.MenuItem("1 bpm", null, :bpmOne, null));
+            menu.addItem(new WatchUi.MenuItem("5 bpm", null, :bpmTwo, null));
+            WatchUi.pushView(menu, new MetronomeSettingsMenuDelegate(), WatchUi.SLIDE_LEFT);
+        }
+        else if (item == :four) { // reset settings
             app.controller.resetSettings();
             WatchUi.popView(WatchUi.SLIDE_RIGHT);
         }
@@ -53,13 +60,20 @@ class MetronomeSettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
             else if (item == :pulseThree) {
                 app.controller.savePulseLength(100);
             }
+            else if (item == :bpmOne) {
+                app.controller.saveBpmAdd(1);
+            }
+            else if (item == :bpmTwo) {
+                app.controller.saveBpm(5);
+            }
             WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
             WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
             var menu = new WatchUi.Menu2(null);
             menu.setTitle(common.settingsTitle);
             menu.addItem(new WatchUi.MenuItem(common.vibeStrength, app.controller.getVibeStrength(), :one, null));
             menu.addItem(new WatchUi.MenuItem(common.pulseLength, app.controller.getPulseLength(), :two, null));
-            menu.addItem(new WatchUi.MenuItem(common.reset, null, :three, null));
+            menu.addItem(new WatchUi.MenuItem(common.bpmAdd, app.controller.getBpmAdd(), :three, null));
+            menu.addItem(new WatchUi.MenuItem(common.reset, null, :four, null));
             WatchUi.pushView(menu, new MetronomeSettingsMenuDelegate(), WatchUi.SLIDE_RIGHT);
         }  
     }

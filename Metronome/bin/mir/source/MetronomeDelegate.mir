@@ -297,7 +297,7 @@ C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeDelegate_mc_47_33
     }
     [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeDelegate.mc"; @line = 52; @symbol_functiondef = [onMenu,52,13,19]; @symbol_return<0> = [Boolean,52,25,32]; ]
     function onMenu() as Boolean {
-C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeDelegate_mc_52_33_61_4_start:
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeDelegate_mc_52_33_63_4_start:
 [ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeDelegate.mc" 53 8 ]
         symbol [ app %tmp.2 53 8 11 ];
         %tmp.2 = getv ? :app;
@@ -307,7 +307,7 @@ C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeDelegate_mc_52_33
         %tmp.4 = getv function %tmp.3 :stopMetronome;
         invoke %tmp.3 %tmp.4();
 [ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeDelegate.mc" 54 8 ]
-        [ "C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeDelegate_mc_52_33_61_4_start" "C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeDelegate_mc_52_33_61_4_stop" ]
+        [ "C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeDelegate_mc_52_33_63_4_start" "C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeDelegate_mc_52_33_63_4_stop" ]
         %menu.1 = local;
         symbol [ menu %menu.1 54 12 16 ];
         symbol [ WatchUi %tmp.7 54 23 30 ];
@@ -389,33 +389,58 @@ C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeDelegate_mc_52_33
         %tmp.54 = getv function ? %tmp.53 :MenuItem;
         symbol [ common %tmp.56 58 42 48 ];
         %tmp.56 = getv ? :common;
-        symbol [ reset %tmp.57 58 49 54 ];
-        %tmp.57 = getv %tmp.56 :reset;
-        %tmp.58 = null;
-        %tmp.60 = const :three;
-        symbol [ three %tmp.60 58 63 68 const ];
-        %tmp.61 = null;
-        %tmp.51 = newc %tmp.54 (%tmp.57, %tmp.58, %tmp.60, %tmp.61);
+        symbol [ bpmAdd %tmp.57 58 49 55 ];
+        %tmp.57 = getv %tmp.56 :bpmAdd;
+        symbol [ app %tmp.59 58 57 60 ];
+        %tmp.59 = getv ? :app;
+        symbol [ controller %tmp.60 58 61 71 ];
+        %tmp.60 = getv %tmp.59 :controller;
+        symbol [ getBpmAdd %tmp.61 58 72 81 ];
+        %tmp.61 = getv function %tmp.60 :getBpmAdd;
+        %tmp.62 = invoke %tmp.60 %tmp.61();
+        %tmp.64 = const :three;
+        symbol [ three %tmp.64 58 86 91 const ];
+        %tmp.65 = null;
+        %tmp.51 = newc %tmp.54 (%tmp.57, %tmp.62, %tmp.64, %tmp.65);
         invoke %tmp.49 %tmp.50(%tmp.51);
 [ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeDelegate.mc" 59 8 ]
-        symbol [ WatchUi %tmp.62 59 8 15 ];
-        %tmp.62 = getm $.Toybox.WatchUi;
-        symbol [ pushView %tmp.63 59 16 24 ];
-        %tmp.63 = getv function %tmp.62 :pushView;
-        %tmp.64 = lgetv %menu.1;
-        symbol [ menu %tmp.64 59 25 29 ];
-        symbol [ MetronomeSettingsMenuDelegate %tmp.68 59 35 64 ];
-        %tmp.68 = getv ? :MetronomeSettingsMenuDelegate;
-        %tmp.65 = newc %tmp.68 ();
-        symbol [ WatchUi %tmp.69 59 68 75 ];
-        %tmp.69 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_UP %tmp.70 59 76 84 ];
-        %tmp.70 = getv %tmp.69 :SLIDE_UP;
-        invoke %tmp.62 %tmp.63(%tmp.64, %tmp.65, %tmp.70);
-[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeDelegate.mc" 60 8 ]
-        %tmp.71 = true;
-        ret %tmp.71;
-C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeDelegate_mc_52_33_61_4_stop:
+        %tmp.66 = lgetv %menu.1;
+        symbol [ menu %tmp.66 59 8 12 ];
+        symbol [ addItem %tmp.67 59 13 20 ];
+        %tmp.67 = getv function %tmp.66 :addItem;
+        symbol [ WatchUi %tmp.70 59 25 32 ];
+        %tmp.70 = getm $.Toybox.WatchUi;
+        symbol [ MenuItem %tmp.71 59 33 41 ];
+        %tmp.71 = getv function ? %tmp.70 :MenuItem;
+        symbol [ common %tmp.73 59 42 48 ];
+        %tmp.73 = getv ? :common;
+        symbol [ reset %tmp.74 59 49 54 ];
+        %tmp.74 = getv %tmp.73 :reset;
+        %tmp.75 = null;
+        %tmp.77 = const :four;
+        symbol [ four %tmp.77 59 63 67 const ];
+        %tmp.78 = null;
+        %tmp.68 = newc %tmp.71 (%tmp.74, %tmp.75, %tmp.77, %tmp.78);
+        invoke %tmp.66 %tmp.67(%tmp.68);
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeDelegate.mc" 61 8 ]
+        symbol [ WatchUi %tmp.79 61 8 15 ];
+        %tmp.79 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.80 61 16 24 ];
+        %tmp.80 = getv function %tmp.79 :pushView;
+        %tmp.81 = lgetv %menu.1;
+        symbol [ menu %tmp.81 61 25 29 ];
+        symbol [ MetronomeSettingsMenuDelegate %tmp.85 61 35 64 ];
+        %tmp.85 = getv ? :MetronomeSettingsMenuDelegate;
+        %tmp.82 = newc %tmp.85 ();
+        symbol [ WatchUi %tmp.86 61 68 75 ];
+        %tmp.86 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.87 61 76 84 ];
+        %tmp.87 = getv %tmp.86 :SLIDE_UP;
+        invoke %tmp.79 %tmp.80(%tmp.81, %tmp.82, %tmp.87);
+[ "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeDelegate.mc" 62 8 ]
+        %tmp.88 = true;
+        ret %tmp.88;
+C__Users_myles_Garmin_Connect_IQ_Dev_Metronome_source_MetronomeDelegate_mc_52_33_63_4_stop:
     }
 }
 [ @file = "C:\Users\myles\Garmin Connect IQ Dev\Metronome\source\MetronomeDelegate.mc"; @line = 1; ]

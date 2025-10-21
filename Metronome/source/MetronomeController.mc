@@ -9,16 +9,19 @@ class MetronomeController {
     hidden var beatTimer;
     hidden var backlightTimer;
     hidden var interval = 1000; // ms
+    hidden var bpmAdd;
     const common = new $.MetronomeAppCommon();
 
     function initialize() {
         var bpmStore = Storage.getValue("bpm");
         var vibeStrengthStore = Storage.getValue("vibeStrength");
         var pulseLengthStore = Storage.getValue("pulseLength");
+        var bpmAddStore = Storage.getValue("bpmAdd");
 
         bpm = (bpmStore == null) ? common.defaultBpm : bpmStore;
         vibeStrength = (vibeStrengthStore == null) ? common.defaultVibeStrength : vibeStrengthStore;
         pulseLength = (pulseLengthStore == null) ? common.defaultPulseLength : pulseLengthStore;
+        bpmAdd = (bpmAddStore == null) ? common.defaultBpmAdd : bpmAddStore;
     }
 
     function onBeat() as Void {
@@ -71,12 +74,12 @@ class MetronomeController {
     function updateBpm(add as Boolean) {
         if (add) {
             if (bpm <= 245) { // upper bound
-                bpm += 5;
+                bpm += bpmAdd;
             }
         }
         else {
             if (bpm >= 35) { // lower bound
-                bpm -= 5;
+                bpm -= bpmAdd;
             }
         }
         startMetronome();
@@ -94,6 +97,10 @@ class MetronomeController {
         return pulseLength.toString() + " ms";
     }
 
+    function getBpmAdd() as String {
+        return bpmAdd.toString() + " bpm";
+    }
+
     function saveBpm() {
         Storage.setValue("bpm", bpm);
     }
@@ -108,11 +115,17 @@ class MetronomeController {
         Storage.setValue("pulseLength", pulseLength);
     }
 
+    function saveBpmAdd(newBpmAdd) {
+        bpmAdd = newBpmAdd;
+        Storage.setValue("bpmAdd", bpmAdd);
+    }
+
     function resetSettings() {
         bpm = common.defaultBpm;
         saveBpm();
         saveVibeStrength(common.defaultVibeStrength);
         savePulseLength(common.defaultPulseLength);
+        saveBpmAdd(common.defaultBpmAdd);
     }
 
     private function updateInterval() {
