@@ -10,6 +10,8 @@ class MetronomeController {
     hidden var backlightTimer;
     hidden var interval = 1000; // ms
     hidden var bpmAdd;
+    hidden var beatsPerBar;
+    hidden var currentBeat = -1;
     const common = new $.MetronomeAppCommon();
 
     function initialize() {
@@ -17,17 +19,31 @@ class MetronomeController {
         var vibeStrengthStore = Storage.getValue("vibeStrength");
         var pulseLengthStore = Storage.getValue("pulseLength");
         var bpmAddStore = Storage.getValue("bpmAdd");
+        var beatsPerBarStore = Storage.getValue("beatsPerBar");
 
         bpm = (bpmStore == null) ? common.defaultBpm : bpmStore;
         vibeStrength = (vibeStrengthStore == null) ? common.defaultVibeStrength : vibeStrengthStore;
         pulseLength = (pulseLengthStore == null) ? common.defaultPulseLength : pulseLengthStore;
         bpmAdd = (bpmAddStore == null) ? common.defaultBpmAdd : bpmAddStore;
+        beatsPerBar = (beatsPerBarStore == null) ? common.defaultBeatsPerBar : beatsPerBarStore;
     }
 
     function onBeat() as Void {
         var vibeData = [];
         if (Attention has :vibrate) {
-            vibeData = [new Attention.VibeProfile(vibeStrength, pulseLength)];
+            currentBeat = (currentBeat + 1) % beatsPerBar;
+
+            var strength = vibeStrength;
+            var length = pulseLength;
+
+            // Accentuate the first beat
+            if (currentBeat == 0) {
+                strength = vibeStrength; // strong accent
+                length = pulseLength + 60;
+            } else {
+                strength = vibeStrength - 40; // softer beats
+            }
+            vibeData = [new Attention.VibeProfile(strength, length)];
         }
         Attention.vibrate(vibeData);
     }
@@ -39,6 +55,7 @@ class MetronomeController {
         }
 
         beatTimer = new Timer.Timer();
+        currentBeat = -1;
         beatTimer.start(method(:onBeat), interval, true);
         startBacklightTimer();
     }
@@ -101,6 +118,10 @@ class MetronomeController {
         return bpmAdd.toString() + " bpm";
     }
 
+    function getBeatsPerBar() as String {
+        return beatsPerBar.toString();
+    }
+
     function saveBpm() {
         Storage.setValue("bpm", bpm);
     }
@@ -120,12 +141,19 @@ class MetronomeController {
         Storage.setValue("bpmAdd", bpmAdd);
     }
 
+    function saveBeatsPerBar(newBeatsPerBar) {
+        System.println(newBeatsPerBar);
+        beatsPerBar = newBeatsPerBar;
+        Storage.setValue("beatsPerBar", beatsPerBar);
+    }
+
     function resetSettings() {
         bpm = common.defaultBpm;
         saveBpm();
         saveVibeStrength(common.defaultVibeStrength);
         savePulseLength(common.defaultPulseLength);
         saveBpmAdd(common.defaultBpmAdd);
+        saveBeatsPerBar(common.defaultBeatsPerBar);
     }
 
     private function updateInterval() {

@@ -53,10 +53,11 @@ class MetronomeDelegate extends WatchUi.BehaviorDelegate {
         app.controller.stopMetronome();
         var menu = new WatchUi.Menu2(null);
         menu.setTitle(common.settingsTitle);
-        menu.addItem(new WatchUi.MenuItem(common.vibeStrength, app.controller.getVibeStrength(), :one, null));
-        menu.addItem(new WatchUi.MenuItem(common.pulseLength, app.controller.getPulseLength(), :two, null));
-        menu.addItem(new WatchUi.MenuItem(common.bpmAdd, app.controller.getBpmAdd(), :three, null));
-        menu.addItem(new WatchUi.MenuItem(common.reset, null, :four, null));
+        menu.addItem(new WatchUi.MenuItem(common.beatsPerBar, app.controller.getBeatsPerBar(), :one, null));
+        menu.addItem(new WatchUi.MenuItem(common.bpmAdd, app.controller.getBpmAdd(), :two, null));
+        menu.addItem(new WatchUi.MenuItem(common.pulseLength, app.controller.getPulseLength(), :three, null));
+        menu.addItem(new WatchUi.MenuItem(common.vibeStrength, app.controller.getVibeStrength(), :four, null));
+        menu.addItem(new WatchUi.MenuItem(common.reset, null, :five, null));
 
         WatchUi.pushView(menu, new MetronomeSettingsMenuDelegate(), WatchUi.SLIDE_UP);
         return true;
